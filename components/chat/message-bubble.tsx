@@ -1,68 +1,120 @@
 'use client';
 
-import React from 'react';
+import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Message } from '/lib/types';
-import { cn, formatTimestamp } from '/lib/utils';
 import { Avatar, AvatarFallback } from '/components/ui/avatar';
-import { Bot, User } from 'lucide-react';
+import { Bot, MoreHorizontal, Check } from 'lucide-react';
 
 interface MessageBubbleProps {
   message: Message;
   isLast?: boolean;
 }
 
-export function MessageBubble({ message, isLast }: MessageBubbleProps) {
+export function MessageBubble({ message }: MessageBubbleProps) {
   const isUser = message.role === 'user';
   const isStreaming = message.isStreaming;
+  const [copied, setCopied] = useState(false);
 
-  return (
-    <motion.div
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.3, ease: 'easeOut' }}
-      className={cn(
-        'flex gap-3 max-w-4xl mx-auto px-4 py-6',
-        isUser ? 'flex-row-reverse' : 'flex-row'
-      )}
-    >
-      <Avatar className="w-8 h-8 shrink-0">
-        <AvatarFallback className={cn(
-          'text-xs font-medium',
-          isUser 
-            ? 'bg-blue-500 text-white' 
-            : 'bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300'
-        )}>
-          {isUser ? <User className="w-4 h-4" /> : <Bot className="w-4 h-4" />}
-        </AvatarFallback>
-      </Avatar>
+  const handleCopy = async () => {
+    try {
+      await navigator.clipboard.writeText(message.content);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch (err) {
+      console.error('Failed to copy text: ', err);
+    }
+  };
 
-      <div className={cn(
-        'flex flex-col gap-1 max-w-[80%]',
-        isUser ? 'items-end' : 'items-start'
-      )}>
-        <div className={cn(
-          'rounded-2xl px-4 py-3 text-sm leading-relaxed',
-          isUser
-            ? 'bg-blue-500 text-white apple-shadow'
-            : 'bg-gray-100 text-gray-900 dark:bg-gray-800 dark:text-gray-100 apple-shadow',
-          isStreaming && 'animate-pulse'
-        )}>
-          <div className="whitespace-pre-wrap break-words">
-            {message.content}
-            {isStreaming && (
-              <motion.span
-                animate={{ opacity: [1, 0] }}
-                transition={{ duration: 0.8, repeat: Infinity, repeatType: 'reverse' }}
-                className="inline-block w-2 h-4 ml-1 bg-current"
-              />
+  // Format timestamp
+  const formatTime = (timestamp?: Date) => {
+    if (!timestamp) return '';
+    return new Date(timestamp).toLocaleTimeString('en-US', {
+      hour: 'numeric',
+      minute: '2-digit',
+      hour12: true
+    });
+  };
+
+  // Agent response: left-aligned with avatar and copy button
+  if (!isUser) {
+    return (
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.3, ease: 'easeOut' }}
+        className="flex gap-3 max-w-4xl mx-auto px-6 py-4"
+      >
+        <Avatar className="w-8 h-8 shrink-0">
+          <AvatarFallback className="bg-blue-600 text-white">
+            <Bot className="w-4 h-4" />
+          </AvatarFallback>
+        </Avatar>
+        <div className="flex flex-col w-full">
+          <div className="flex items-start justify-between w-full">
+            <div className="flex-1 max-w-[85%]">
+              <div className="text-[15px] leading-relaxed text-gray-800 dark:text-gray-200 whitespace-pre-wrap break-words font-normal">
+                {message.content}
+                {isStreaming && (
+                  <motion.span
+                    animate={{ opacity: [1, 0] }}
+                    transition={{ duration: 0.8, repeat: Infinity, repeatType: 'reverse' }}
+                    className="inline-block w-2 h-4 ml-1 bg-current"
+                  />
+                )}
+              </div>
+            </div>
+            {!isStreaming && (
+              <button
+                onClick={handleCopy}
+                className="ml-2 p-1 rounded-md hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors flex items-center justify-center"
+                aria-label="Copy message"
+              >
+                {copied ? (
+                  <Check className="w-4 h-4 text-green-600" />
+                ) : (
+                  <MoreHorizontal className="w-4 h-4 text-gray-500" />
+                )}
+              </button>
             )}
           </div>
         </div>
-        
-        <span className="text-xs text-muted-foreground px-2">
-          {formatTimestamp(message.timestamp)}
-        </span>
+      </motion.div>
+    );
+  }
+
+  // User bubble: right-aligned with square top-right corner, other corners rounded
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 20, scale: 0.98 }}
+      animate={{ opacity: 1, y: 0, scale: 1 }}
+      transition={{ duration: 0.25, ease: 'easeOut' }}
+      className="flex justify-end max-w-4xl mx-auto px-6 py-3"
+    >
+      <div className="flex flex-col max-w-[80%] items-end">
+        <div
+          className="
+            rounded-tl-[12px] rounded-bl-[12px] rounded-br-[12px] rounded-tr-none
+            px-6 py-4
+            bg-[#1977F3]
+            text-white
+            shadow-[0_8px_18px_rgba(25,119,243,0.35)]
+          "
+          aria-live="polite"
+          aria-label="Your message"
+        >
+          <p className="text-[15px] md:text-[20px] leading-[1.55] whitespace-pre-wrap break-words font-normal">
+            {message.content}
+          </p>
+        </div>
+
+        <time
+          className="mt-1 pr-1 text-[11px] leading-4 text-gray-400 dark:text-gray-500"
+          dateTime={message.timestamp ? new Date(message.timestamp).toISOString() : undefined}
+          aria-label={`Sent at ${formatTime(message.timestamp)}`}
+        >
+          {formatTime(message.timestamp)}
+        </time>
       </div>
     </motion.div>
   );

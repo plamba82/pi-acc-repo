@@ -1,4 +1,4 @@
- @tailwind base;
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -56,6 +56,8 @@
   body {
     @apply bg-background text-foreground;
     font-feature-settings: "rlig" 1, "calt" 1;
+    min-height: 100vh;
+    -webkit-tap-highlight-color: transparent;
   }
 }
 

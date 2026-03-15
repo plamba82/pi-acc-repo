@@ -6,8 +6,8 @@ import { Providers } from './providers';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'AI Chat Platform',
-  description: 'Premium AI conversation platform with real-time streaming',
+  title: 'AI Commerce Chat',
+  description: 'Responsive AI-assisted commerce chat application',
   viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
 };
 
@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={inter.className}>
+      <body className={inter.className + ' min-h-screen bg-background text-foreground'}>
         <Providers>
           {children}
         </Providers>

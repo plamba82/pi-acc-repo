@@ -1,48 +1,76 @@
 'use client';
 
-import React, { useState } from 'react';
-import { motion } from 'framer-motion';
+import React from 'react';
 import { ChatInterface } from '/components/chat/chat-interface';
-import { ChatSidebar } from '/components/sidebar/chat-sidebar';
 import { Button } from '/components/ui/button';
-import { Menu, X } from 'lucide-react';
+import { Sun, Moon, Monitor } from 'lucide-react';
+
+function setTheme(theme: string) {
+  if (typeof window !== 'undefined') {
+    document.documentElement.classList.remove('light', 'dark');
+    if (theme === 'system') {
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      document.documentElement.classList.add(prefersDark ? 'dark' : 'light');
+      localStorage.setItem('theme', 'system');
+    } else {
+      document.documentElement.classList.add(theme);
+      localStorage.setItem('theme', theme);
+    }
+  }
+}
 
 export default function HomePage() {
-  const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [theme, setThemeState] = React.useState('system');
+
+  React.useEffect(() => {
+    const saved = localStorage.getItem('theme') || 'system';
+    setTheme(saved);
+    setThemeState(saved);
+  }, []);
+
+  const handleThemeChange = (theme: string) => {
+    setTheme(theme);
+    setThemeState(theme);
+  };
 
   return (
-    <div className="flex h-screen bg-background">
-      {/* Mobile Header */}
-      <div className="lg:hidden fixed top-0 left-0 right-0 z-30 bg-background/95 backdrop-blur-xl border-b border-border/50 p-4">
-        <div className="flex items-center justify-between">
+    <div className="flex flex-col h-screen bg-background">
+      {/* Top Bar */}
+      <header className="flex items-center justify-between px-4 py-3 border-b border-border/50 bg-background/80 backdrop-blur-xl sticky top-0 z-20">
+        <div className="flex items-center gap-2">
+          <span className="text-xl font-bold tracking-tight">AI Commerce</span>
+        </div>
+        <div className="flex items-center gap-2">
           <Button
             size="icon"
-            variant="ghost"
-            onClick={() => setSidebarOpen(true)}
-            className="w-8 h-8"
+            variant={theme === 'light' ? 'apple' : 'ghost'}
+            aria-label="Light mode"
+            onClick={() => handleThemeChange('light')}
           >
-            <Menu className="w-4 h-4" />
+            <Sun className="w-5 h-5" />
           </Button>
-          
-          <h1 className="font-semibold">AI Chat</h1>
-          
-          <div className="w-8" /> {/* Spacer */}
+          <Button
+            size="icon"
+            variant={theme === 'dark' ? 'apple' : 'ghost'}
+            aria-label="Dark mode"
+            onClick={() => handleThemeChange('dark')}
+          >
+            <Moon className="w-5 h-5" />
+          </Button>
+          <Button
+            size="icon"
+            variant={theme === 'system' ? 'apple' : 'ghost'}
+            aria-label="System mode"
+            onClick={() => handleThemeChange('system')}
+          >
+            <Monitor className="w-5 h-5" />
+          </Button>
         </div>
-      </div>
-
-      {/* Sidebar */}
-      <div className="hidden lg:block">
-        <ChatSidebar isOpen={true} onClose={() => {}} />
-      </div>
-      
-      {/* Mobile Sidebar */}
-      <ChatSidebar isOpen={sidebarOpen} onClose={() => setSidebarOpen(false)} />
-
-      {/* Main Content */}
-      <div className="flex-1 flex flex-col lg:ml-0">
-        <div className="lg:hidden h-16" /> {/* Spacer for mobile header */}
+      </header>
+      {/* Main Chat Area */}
+      <main className="flex-1 flex flex-col">
         <ChatInterface />
-      </div>
+      </main>
     </div>
   );
 }
