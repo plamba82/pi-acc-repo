@@ -1,10 +1,11 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import { Message } from '/lib/types';
 import { Avatar, AvatarFallback } from '/components/ui/avatar';
-import { Bot, MoreHorizontal, Check } from 'lucide-react';
+import { Bot, MoreHorizontal, Check, ChevronDown } from 'lucide-react';
+import { StreamingText } from './streaming-text';
 
 interface MessageBubbleProps {
   message: Message;
@@ -14,7 +15,12 @@ interface MessageBubbleProps {
 export function MessageBubble({ message, isLast }: MessageBubbleProps) {
   const isUser = message.role === 'user';
   const isStreaming = message.isStreaming;
+
   const [copied, setCopied] = useState(false);
+
+  // Scroll-hint state for assistant messages
+  const endSentinelRef = useRef<HTMLSpanElement | null>(null);
+  const [needsScrollHint, setNeedsScrollHint] = useState(false);
 
   const handleCopy = async () => {
     try {
@@ -35,10 +41,33 @@ export function MessageBubble({ message, isLast }: MessageBubbleProps) {
     });
   };
 
+  // Observe whether the end of the assistant message is visible in the viewport.
+  useEffect(() => {
+    if (isUser) return; // Only for assistant messages
+    const sentinel = endSentinelRef.current;
+    if (!sentinel) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setNeedsScrollHint(!entry.isIntersecting);
+      },
+      {
+        root: null,
+        threshold: 1,
+        rootMargin: '0px 0px -8px 0px'
+      }
+    );
+
+    observer.observe(sentinel);
+    return () => observer.disconnect();
+  }, [isUser, message.content, isStreaming]);
+
+  const scrollToEnd = () => {
+    endSentinelRef.current?.scrollIntoView({ behavior: 'smooth', block: 'end' });
+  };
+
   // Assistant message (left): includes vertical timeline rail that extends downward to connect with the next message
   if (!isUser) {
-    // Extend the rail slightly below this row to visually connect to the next assistant item.
-    // Tune the negative value if your vertical spacing changes.
     const bottomExtendClass = isLast ? 'bottom-0' : 'bottom-[-18px]';
 
     return (
@@ -50,7 +79,6 @@ export function MessageBubble({ message, isLast }: MessageBubbleProps) {
       >
         {/* Timeline rail + avatar column */}
         <div className="relative w-8 shrink-0 flex justify-center">
-          {/* Vertical rail: extends slightly below to connect with the next assistant row */}
           <span
             aria-hidden="true"
             className={`pointer-events-none absolute left-1/2 -translate-x-1/2 top-0 ${bottomExtendClass} w-px bg-gray-200 dark:bg-gray-700`}
@@ -64,10 +92,15 @@ export function MessageBubble({ message, isLast }: MessageBubbleProps) {
 
         {/* Content column */}
         <div className="flex flex-col w-full min-w-0">
-          <div className="flex items-start justify-between w-full">
-            <div className="flex-1 max-w-[85%] min-w-0">
-              <div className="text-[15px] leading-relaxed text-gray-800 dark:text-gray-200 whitespace-pre-wrap break-words font-normal">
-                {message.content}
+          <div className="flex items-start w-full">
+            <div className="flex-1 max-w-[100%] min-w-0">
+              <div className="relative">
+                <StreamingText
+                  text={message.content}
+                  isStreaming={!!isStreaming}
+                  charsPerFrame={32}
+                  className="text-[15px] leading-relaxed text-gray-800 dark:text-gray-200 whitespace-pre-wrap break-words font-normal"
+                />
                 {isStreaming && (
                   <motion.span
                     animate={{ opacity: [1, 0] }}
@@ -75,29 +108,58 @@ export function MessageBubble({ message, isLast }: MessageBubbleProps) {
                     className="inline-block w-2 h-4 ml-1 bg-current"
                   />
                 )}
+                {/* Sentinel marks the very end of the assistant message */}
+                <span ref={endSentinelRef} aria-hidden="true" />
+
+                {/* Copy action placed at the end of the message (only when not streaming) */}
+                {!isStreaming && (
+                  <div className="mt-2 flex justify-end">
+                    <button
+                      onClick={handleCopy}
+                      className="inline-flex items-center gap-1 px-2 py-1 rounded-md text-xs text-gray-600 hover:text-gray-800 hover:bg-gray-100 dark:text-gray-300 dark:hover:text-white dark:hover:bg-gray-700 transition-colors"
+                      aria-label="Copy message"
+                    >
+                      {copied ? (
+                        <>
+                          <Check className="w-3.5 h-3.5 text-green-600" />
+                          <span>Copied</span>
+                        </>
+                      ) : (
+                        <>
+                          <MoreHorizontal className="w-3.5 h-3.5 text-gray-500" />
+                          <span>Copy</span>
+                        </>
+                      )}
+                    </button>
+                  </div>
+                )}
+
+                {/* Downward scroll hint (appears when the message extends below the viewport) */}
+                {needsScrollHint && (
+                  <div className="sticky bottom-6 z-20 mt-6 flex w-full justify-center">
+                    <div
+                      aria-hidden="true"
+                      className="pointer-events-none absolute inset-x-0 bottom-0 h-20 bg-gradient-to-b from-transparent to-white dark:to-neutral-900"
+                    />
+                    <button
+                      type="button"
+                      onClick={scrollToEnd}
+                      className="relative inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/95 text-gray-700 shadow-md ring-1 ring-black/10 hover:bg-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 dark:bg-gray-800 dark:text-gray-100"
+                      aria-label="Show the rest of the message"
+                    >
+                      <ChevronDown className="h-5 w-5" />
+                    </button>
+                  </div>
+                )}
               </div>
             </div>
-
-            {!isStreaming && (
-              <button
-                onClick={handleCopy}
-                className="ml-2 p-1 rounded-md hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors flex items-center justify-center"
-                aria-label="Copy message"
-              >
-                {copied ? (
-                  <Check className="w-4 h-4 text-green-600" />
-                ) : (
-                  <MoreHorizontal className="w-4 h-4 text-gray-500" />
-                )}
-              </button>
-            )}
           </div>
         </div>
       </motion.div>
     );
   }
 
-  // User message (right): separate from the timeline
+  // User message (right): separate from the timeline (no copy button)
   return (
     <motion.div
       initial={{ opacity: 0, y: 20, scale: 0.98 }}

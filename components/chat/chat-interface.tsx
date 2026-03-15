@@ -9,7 +9,7 @@ import { MessageInput } from './message-input';
 import { ScrollArea } from '/components/ui/scroll-area';
 import { Button } from '/components/ui/button';
 import { RefreshCw, Wifi, WifiOff } from 'lucide-react';
-import { cn } from '/lib/utils';
+import { cn, generateId } from '/lib/utils';
 
 export function ChatInterface() {
   const {
@@ -62,19 +62,20 @@ export function ChatInterface() {
       sessionId = createSession(currentAgentId, 'New Chat');
     }
 
+    // IMPORTANT: Generate distinct IDs for user and assistant messages
+    const userMessageId = `user_${generateId()}`;
+    const assistantMessageId = `ai_${generateId()}`;
 
-
-    // Add placeholder for AI response
-    const aiMessageId = `ai_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
-
-            addMessage({
-      id: aiMessageId,
+    // Add the user's message with its own unique ID
+    addMessage({
+      id: userMessageId,
       content,
       role: 'user',
     });
 
+    // Add placeholder for AI response with a different unique ID
     addMessage({
-      id: aiMessageId,
+      id: assistantMessageId,
       content: '',
       role: 'assistant',
       isStreaming: true,
@@ -83,7 +84,8 @@ export function ChatInterface() {
     setStreaming(true);
 
     try {
-      wsService.sendMessage(content, sessionId, currentAgentId, aiMessageId);
+      // Send only the assistant message ID so streaming updates target it
+      wsService.sendMessage(content, sessionId, currentAgentId, assistantMessageId);
     } catch (error) {
       console.error('Failed to send message:', error);
       setStreaming(false);
