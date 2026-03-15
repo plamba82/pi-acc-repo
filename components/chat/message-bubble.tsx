@@ -8,10 +8,10 @@ import { Bot, MoreHorizontal, Check } from 'lucide-react';
 
 interface MessageBubbleProps {
   message: Message;
-  isLast?: boolean;
+  isLast?: boolean; // optional: when true, we cap the rail at the bottom (no extension)
 }
 
-export function MessageBubble({ message }: MessageBubbleProps) {
+export function MessageBubble({ message, isLast }: MessageBubbleProps) {
   const isUser = message.role === 'user';
   const isStreaming = message.isStreaming;
   const [copied, setCopied] = useState(false);
@@ -26,7 +26,6 @@ export function MessageBubble({ message }: MessageBubbleProps) {
     }
   };
 
-  // Format timestamp
   const formatTime = (timestamp?: Date) => {
     if (!timestamp) return '';
     return new Date(timestamp).toLocaleTimeString('en-US', {
@@ -36,23 +35,37 @@ export function MessageBubble({ message }: MessageBubbleProps) {
     });
   };
 
-  // Agent response: left-aligned with avatar and copy button
+  // Assistant message (left): includes vertical timeline rail that extends downward to connect with the next message
   if (!isUser) {
+    // Extend the rail slightly below this row to visually connect to the next assistant item.
+    // Tune the negative value if your vertical spacing changes.
+    const bottomExtendClass = isLast ? 'bottom-0' : 'bottom-[-18px]';
+
     return (
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.3, ease: 'easeOut' }}
-        className="flex gap-3 max-w-4xl mx-auto px-6 py-4"
+        className="relative flex gap-3 max-w-4xl mx-auto px-6 py-4"
       >
-        <Avatar className="w-8 h-8 shrink-0">
-          <AvatarFallback className="bg-blue-600 text-white">
-            <Bot className="w-4 h-4" />
-          </AvatarFallback>
-        </Avatar>
-        <div className="flex flex-col w-full">
+        {/* Timeline rail + avatar column */}
+        <div className="relative w-8 shrink-0 flex justify-center">
+          {/* Vertical rail: extends slightly below to connect with the next assistant row */}
+          <span
+            aria-hidden="true"
+            className={`pointer-events-none absolute left-1/2 -translate-x-1/2 top-0 ${bottomExtendClass} w-px bg-gray-200 dark:bg-gray-700`}
+          />
+          <Avatar className="w-8 h-8 relative z-10">
+            <AvatarFallback className="bg-blue-600 text-white">
+              <Bot className="w-4 h-4" />
+            </AvatarFallback>
+          </Avatar>
+        </div>
+
+        {/* Content column */}
+        <div className="flex flex-col w-full min-w-0">
           <div className="flex items-start justify-between w-full">
-            <div className="flex-1 max-w-[85%]">
+            <div className="flex-1 max-w-[85%] min-w-0">
               <div className="text-[15px] leading-relaxed text-gray-800 dark:text-gray-200 whitespace-pre-wrap break-words font-normal">
                 {message.content}
                 {isStreaming && (
@@ -64,6 +77,7 @@ export function MessageBubble({ message }: MessageBubbleProps) {
                 )}
               </div>
             </div>
+
             {!isStreaming && (
               <button
                 onClick={handleCopy}
@@ -83,7 +97,7 @@ export function MessageBubble({ message }: MessageBubbleProps) {
     );
   }
 
-  // User bubble: right-aligned with square top-right corner, other corners rounded
+  // User message (right): separate from the timeline
   return (
     <motion.div
       initial={{ opacity: 0, y: 20, scale: 0.98 }}
