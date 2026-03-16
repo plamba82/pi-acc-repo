@@ -37,75 +37,69 @@
       }
     },
     "lines": {
-      "1": {
+      "2": {
         "chunkId": "7d68fd",
-        "hash": "8f5e7bb2",
-        "encoded": "#%20OpenAI%20API%20Configuration",
+        "hash": "9c00949f",
+        "encoded": "#%20Optional:%20Customize%20file%20paths",
         "prevChunkIds": []
       },
       "3": {
         "chunkId": "7d68fd",
-        "hash": "1454d7c1",
-        "encoded": "#%20Optional:%20Customize%20file%20paths",
+        "hash": "7395045f",
+        "encoded": "RESUME_PATH=resume.txt",
         "prevChunkIds": []
       },
       "4": {
         "chunkId": "7d68fd",
-        "hash": "5b16426c",
-        "encoded": "RESUME_PATH=resume.txt",
+        "hash": "c8a01b08",
+        "encoded": "OUTPUT_DIR=output",
         "prevChunkIds": []
       },
       "5": {
         "chunkId": "7d68fd",
-        "hash": "fa08f061",
-        "encoded": "OUTPUT_DIR=output",
+        "hash": "532c6764",
+        "encoded": "EOF",
         "prevChunkIds": []
       },
-      "6": {
+      "7": {
         "chunkId": "7d68fd",
-        "hash": "c05c2c3c",
-        "encoded": "EOF",
+        "hash": "3d79593e",
+        "encoded": "echo%20%22Setup%20complete!%22",
         "prevChunkIds": []
       },
       "8": {
         "chunkId": "7d68fd",
-        "hash": "64246e75",
-        "encoded": "echo%20%22Setup%20complete!%22",
+        "hash": "42137206",
+        "encoded": "echo%20%22%22",
         "prevChunkIds": []
       },
       "9": {
         "chunkId": "7d68fd",
-        "hash": "0728d8e6",
-        "encoded": "echo%20%22%22",
+        "hash": "cc813f03",
+        "encoded": "echo%20%22Next%20steps:%22",
         "prevChunkIds": []
       },
       "10": {
         "chunkId": "7d68fd",
-        "hash": "a6492c83",
-        "encoded": "echo%20%22Next%20steps:%22",
+        "hash": "657c75cb",
+        "encoded": "echo%20%221.%20Add%20your%20OpenAI%20API%20key%20to%20.env%20file%22",
         "prevChunkIds": []
       },
       "11": {
         "chunkId": "7d68fd",
-        "hash": "ad6a7020",
-        "encoded": "echo%20%221.%20Add%20your%20OpenAI%20API%20key%20to%20.env%20file%22",
+        "hash": "a5efbd20",
+        "encoded": "echo%20%222.%20Update%20resume.txt%20with%20your%20information%22",
         "prevChunkIds": []
       },
       "12": {
         "chunkId": "7d68fd",
-        "hash": "75e447e9",
-        "encoded": "echo%20%222.%20Update%20resume.txt%20with%20your%20information%22",
+        "hash": "97dac65d",
+        "encoded": "echo%20%223.%20Run:%20python%20main.py%22",
         "prevChunkIds": []
       },
       "13": {
         "chunkId": "7d68fd",
-        "hash": "fdb8bbdc",
-        "encoded": "echo%20%223.%20Run:%20python%20main.py%22",
-        "prevChunkIds": []
-      },
-      "14": {
-        "chunkId": "7d68fd",
-        "hash": "ddc9f90b",
+        "hash": "d9b43762",
         "encoded": "echo%20%22%22",
         "prevChunkIds": []
       }
