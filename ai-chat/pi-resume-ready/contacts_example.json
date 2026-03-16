@@ -1,0 +1,602 @@
+[
+    {
+        "name": "Gail Breen",
+        "email": "gail.breen@utdallas.edu",
+        "university": "UTD",
+        "department": "Biological Sciences"
+    },
+    {
+        "name": "John Hart, Jr.",
+        "email": "jhart@utdallas.edu",
+        "university": "UTD",
+        "department": "Biological Brain  Sciences/Neuroscience"
+    },
+    {
+        "name": "Benedict Kolber",
+        "email": "benedict.kolber@utdallas.edu",
+        "university": "UTD",
+        "department": "Neuroscience"
+    },
+    {
+        "name": "Gabriele Meloni",
+        "email": "Gabriele.Meloni@utdallas.edu",
+        "university": "UTD",
+        "department": "Chemistry/Biochemistry"
+    },
+    {
+        "name": "Sven Kroener",
+        "email": "kroener@utdallas.edu",
+        "university": "UTD",
+        "department": "Neuroscience/Drug Addiction"
+    },
+    {
+        "name": "Sankalp Shukla",
+        "email": "Sankalp.Shukla@UTDallas.edu",
+        "university": "UTD",
+        "department": "Biological Sciences"
+    },
+    {
+        "name": "Rukhsana Sultana",
+        "email": "rukhsana.sultana@utdallas.edu",
+        "university": "UTD",
+        "department": "Neuroscience"
+    },
+    {
+        "name": "Zhao Sun",
+        "email": "Zhao.Sun@UTDallas.edu",
+        "university": "UTD",
+        "department": "Alzheimers"
+    },
+    {
+        "name": "Lucien Thompson",
+        "email": "tres@utdallas.edu",
+        "university": "UTD",
+        "department": "Neuroscience/Aging"
+    },
+    {
+        "name": "Adam J. Woods",
+        "email": "adam.woods@utdallas.edu",
+        "university": "UTD",
+        "department": "Behavioral/Brain Sciences"
+    },
+    {
+        "name": "Catherine Thorn",
+        "email": "catherine.thorn@utdallas.edu",
+        "university": "UTD",
+        "department": "Neuroscience"
+    },
+    {
+        "name": "Caitlin Maynard",
+        "email": "Caitlin.Maynard@utdallas.edu",
+        "university": "UTD",
+        "department": "Biological Sciences"
+    },
+    {
+        "name": "Michael Burton Jr.",
+        "email": "michael.burton@utdallas.edu",
+        "university": "UTD",
+        "department": "Neuroscience"
+    },
+    {
+        "name": "Shruti Hariyani ",
+        "email": "shruti.hariyani@utdallas.edu",
+        "university": "UTD",
+        "department": "Chemistry/Biochemistry"
+    },
+    {
+        "name": "Ziwen Jiang",
+        "email": "Ziwen.Jiang@UTDallas.edu",
+        "university": "UTD",
+        "department": "Chemistry/Biochemistry"
+    },
+    {
+        "name": "Tae Hoon Kim",
+        "email": "genome@utdallas.edu",
+        "university": "UTD",
+        "department": "Biological Sciences"
+    },
+    {
+        "name": "Lloyd Lumata",
+        "email": "Lloyd.Lumata@utdallas.edu",
+        "university": "UTD",
+        "department": "Physics/Neuroscience Program"
+    },
+    {
+        "name": "Simbarashe (Simba) Mazambani",
+        "email": "sxm170074@utdallas.edu",
+        "university": "UTD",
+        "department": "Biological Sciences"
+    },
+    {
+        "name": "Joseph Boll",
+        "email": "Joseph.Boll@UTDallas.edu",
+        "university": "UTD",
+        "department": "Biological Sciences"
+    },
+    {
+        "name": "Jeff De Jong",
+        "email": "dejong@utdallas.edu",
+        "university": "UTD",
+        "department": "Biological Sciences"
+    },
+    {
+        "name": "Xavier Aranda",
+        "email": "aranda@uta.edu",
+        "university": "UTA",
+        "department": "Biology"
+    },
+    {
+        "name": "Esther Betran",
+        "email": "betran@uta.edu",
+        "university": "UTA",
+        "department": "Biology"
+    },
+    {
+        "name": "Woo-Suk Chang",
+        "email": "wschang@uta.edu",
+        "university": "UTA",
+        "department": "Biology"
+    },
+    {
+        "name": "Paul Chippindale",
+        "email": "paulc@uta.edu",
+        "university": "UTA",
+        "department": "Biology"
+    },
+    {
+        "name": "Allan Clark",
+        "email": "clay.clark@uta.edu",
+        "university": "UTA",
+        "department": "Biology"
+    },
+    {
+        "name": "Aman Dhaliwal",
+        "email": "amandeep.dhaliwal@uta.edu",
+        "university": "UTA",
+        "department": "Biology"
+    },
+    {
+        "name": "Matthew Fujita",
+        "email": "mkfujita@exchange.uta.edu",
+        "university": "UTA",
+        "department": "Biology"
+    },
+    {
+        "name": "James Grover",
+        "email": "grover@uta.edu",
+        "university": "UTA",
+        "department": "Biology"
+    },
+    {
+        "name": "Theodora Koromila",
+        "email": "theodora.koromila@uta.edu",
+        "university": "UTA",
+        "department": "Biology"
+    },
+    {
+        "name": "Zui Pan",
+        "email": "zui.pan@uta.edu",
+        "university": "UTA",
+        "department": "Biology"
+    },
+    {
+        "name": "Pranesh Aswath",
+        "email": "aswath@exchange.uta.edu",
+        "university": "UTA",
+        "department": "Bioengineering"
+    },
+    {
+        "name": "Khosrow Behbehani",
+        "email": "kb@uta.edu",
+        "university": "UTA",
+        "department": "Bioengineering"
+    },
+    {
+        "name": "Michael Cho",
+        "email": "michael.cho@uta.edu",
+        "university": "UTA",
+        "department": "Bioengineering"
+    },
+    {
+        "name": "Digant Dave",
+        "email": "ddave@uta.edu",
+        "university": "UTA",
+        "department": "Bioengineering"
+    },
+    {
+        "name": "Ankur Jain",
+        "email": "jaina@uta.edu",
+        "university": "UTA",
+        "department": "Bioengineering"
+    },
+    {
+        "name": "Joseph Buonomo",
+        "email": "joseph.buonomo@uta.edu",
+        "university": "UTA",
+        "department": "Chemistry/Biochemistry"
+    },
+    {
+        "name": "Joshua Crowell",
+        "email": "joshua.crowell@uta.edu",
+        "university": "UTA",
+        "department": "Chemistry/Biochemistry"
+    },
+    {
+        "name": "Purnendu Dasgupta",
+        "email": "dasgupta@uta.edu",
+        "university": "UTA",
+        "department": "Chemistry/Biochemistry"
+    },
+    {
+        "name": "He Dong",
+        "email": "he.dong@uta.edu",
+        "university": "UTA",
+        "department": "Chemistry/Biochemistry"
+    },
+    {
+        "name": "Kay Johnson-Winters",
+        "email": "kayunta@uta.edu",
+        "university": "UTA",
+        "department": "Chemistry/Biochemistry"
+    },
+    {
+        "name": "Brian G. Ayre",
+        "email": "bgayre@unt.edu",
+        "university": "UNT",
+        "department": "Biological Sciences"
+    },
+    {
+        "name": "Rajeev K. Azad",
+        "email": "Rajeev.Azad@unt.edu",
+        "university": "UNT",
+        "department": "Biological Sciences"
+    },
+    {
+        "name": "Rohan Balakrishnan",
+        "email": "Rohan.balakrishnan@unt.edu",
+        "university": "UNT",
+        "department": "Biological Sciences"
+    },
+    {
+        "name": "Warren W. Burggren",
+        "email": "burggren@unt.edu",
+        "university": "UNT",
+        "department": "Biological Sciences"
+    },
+    {
+        "name": "Kent D. Chapman",
+        "email": "chapman@unt.edu",
+        "university": "UNT",
+        "department": "Biological Sciences"
+    },
+    {
+        "name": "Juliana D'Andrilli",
+        "email": "Juliana.D'andrilli@unt.edu",
+        "university": "UNT",
+        "department": "Biological Sciences"
+    },
+    {
+        "name": "Jannon L. Fuchs",
+        "email": "Jannon.Fuchs@unt.edu",
+        "university": "UNT",
+        "department": "Biological Sciences"
+    },
+    {
+        "name": "David J. Hoeinghaus",
+        "email": "David.Hoeinghaus@unt.edu",
+        "university": "UNT",
+        "department": "Biological Sciences"
+    },
+    {
+        "name": "Pudur Jagadeeswaran",
+        "email": "jag@unt.edu",
+        "university": "UNT",
+        "department": "Biological Sciences"
+    },
+    {
+        "name": "Antonella Longo",
+        "email": "Antonella.Longo@unt.edu",
+        "university": "UNT",
+        "department": "Biological Sciences"
+    },
+    {
+        "name": "Roisin C. McGarry",
+        "email": "rmcgarry@unt.edu",
+        "university": "UNT",
+        "department": "Biological Sciences"
+    },
+    {
+        "name": "Anastasia Sacharidou",
+        "email": "Anastasia.Sacharidou@unt.edu ",
+        "university": "UNT",
+        "department": "Biological Sciences"
+    },
+    {
+        "name": "Ikjot Singh Sohal",
+        "email": "Ikjot.Sohal@unt.edu",
+        "university": "UNT",
+        "department": "Biological Sciences"
+    },
+    {
+        "name": "Rudi Thompson",
+        "email": "rudi@unt.edu",
+        "university": "UNT",
+        "department": "Biological Sciences"
+    },
+    {
+        "name": "Xiaoqiang Wang",
+        "email": "Xiaoqiang.Wang@unt.edu",
+        "university": "UNT",
+        "department": "Biological Sciences"
+    },
+    {
+        "name": "Guenter W. Gross",
+        "email": "Guenter.Gross@unt.edu",
+        "university": "UNT",
+        "department": "Neuroscience"
+    },
+    {
+        "name": "Daniele Ortu",
+        "email": "do0037@unt.edu",
+        "university": "UNT",
+        "department": "Neuroscience"
+    },
+    {
+        "name": "Nicoladie D. Tam",
+        "email": "Nicoladie.Tam@unt.edu",
+        "university": "UNT",
+        "department": "Biological Sciences/Neuroscience Computational"
+    },
+    {
+        "name": "Daniel Afosah",
+        "email": "daniel.afosah@unt.edu",
+        "university": "UNT",
+        "department": "Chemistry"
+    },
+    {
+        "name": "Melissa A. Collini",
+        "email": "Melissa.Collini@unt.edu",
+        "university": "UNT",
+        "department": "Chemistry"
+    },
+    {
+        "name": "Bianca Batista",
+        "email": "bbatista@smu.edu",
+        "university": "SMU",
+        "department": "Biological Sciences"
+    },
+    {
+        "name": "Amy L. Brewster",
+        "email": "albrewster@smu.edu",
+        "university": "SMU",
+        "department": "Biological Sciences"
+    },
+    {
+        "name": "Alejandro D'Brot",
+        "email": "adbrot@smu.edu",
+        "university": "SMU",
+        "department": "Biological Sciences"
+    },
+    {
+        "name": "Edward Glasscock",
+        "email": "eglasscock@smu.edu",
+        "university": "SMU",
+        "department": "Biological Sciences"
+    },
+    {
+        "name": "Carolyn Harrod",
+        "email": "charrod@smu.edu",
+        "university": "SMU",
+        "department": "Biological Sciences"
+    },
+    {
+        "name": "Zhihao Wu",
+        "email": "zhihaowu@smu.edu",
+        "university": "SMU",
+        "department": "Biological Sciences"
+    },
+    {
+        "name": "Rachel Wright",
+        "email": "wrightrm@smu.edu",
+        "university": "SMU",
+        "department": "Biological Sciences"
+    },
+    {
+        "name": "Annika Wylie",
+        "email": "annikaw@smu.edu",
+        "university": "SMU",
+        "department": "Biological Sciences"
+    },
+    {
+        "name": "Pia Vogel",
+        "email": "pvogel@smu.edu",
+        "university": "SMU",
+        "department": "Biological Sciences"
+    },
+    {
+        "name": "Bethany Smith",
+        "email": "bksmith@smu.edu",
+        "university": "SMU",
+        "department": "Biological Sciences"
+    },
+    {
+        "name": "Marek Freindorf",
+        "email": "mfreindorf@smu.edu",
+        "university": "SMU",
+        "department": "Chemistry"
+    },
+    {
+        "name": "Pokhraj Ghosh",
+        "email": "pghosh@smu.edu",
+        "university": "SMU",
+        "department": "Chemistry"
+    },
+    {
+        "name": "Werner Horsthemke",
+        "email": "whorsthe@smu.edu",
+        "university": "SMU",
+        "department": "Chemistry"
+    },
+    {
+        "name": "Alan Humason",
+        "email": "ahumason@smu.edu",
+        "university": "SMU",
+        "department": "Chemistry"
+    },
+    {
+        "name": "Janarthanan Jayawickramarajah",
+        "email": "jananj@mail.smu.edu",
+        "university": "SMU",
+        "department": "Chemistry"
+    },
+    {
+        "name": "Alex Lippert",
+        "email": "alippert@smu.edu",
+        "university": "SMU",
+        "department": "Chemistry"
+    },
+    {
+        "name": "Devin Matthews",
+        "email": "damatthews@smu.edu",
+        "university": "SMU",
+        "department": "Chemistry"
+    },
+    {
+        "name": "Aditi Nagar",
+        "email": "aditin@mail.smu.edu",
+        "university": "SMU",
+        "department": "Chemistry"
+    },
+    {
+        "name": "Jennifer O'Brien",
+        "email": "jobrien@smu.edu",
+        "university": "SMU",
+        "department": "Chemistry"
+    },
+    {
+        "name": "Mark A. F. Schell",
+        "email": "mschell@smu.edu",
+        "university": "SMU",
+        "department": "Chemistry"
+    },
+    {
+        "name": "Yogesh Aggarwal",
+        "email": "yogesh.aggarwal@utsouthwestern.edu",
+        "university": "UTSW",
+        "department": "Neuroscience"
+    },
+    {
+        "name": "Canyon kael Calovich-Benne",
+        "email": "canyon.calovich-benne@utsouthwestern.edu",
+        "university": "UTSW",
+        "department": "Neuroscience"
+    },
+    {
+        "name": "Samantha Iiams Clever",
+        "email": "samantha.clever@utsouthwestern.edu ",
+        "university": "UTSW",
+        "department": "Neuroscience"
+    },
+    {
+        "name": "Vivek Dubey",
+        "email": "vivek.dubey@utsouthwestern.edu",
+        "university": "UTSW",
+        "department": "Neuroscience"
+    },
+    {
+        "name": "Jay Gibson",
+        "email": "jay.gibson@utsouthwestern.edu",
+        "university": "UTSW",
+        "department": "Neuroscience"
+    },
+    {
+        "name": "Carla Green",
+        "email": "carla.green@utsouthwestern.edu",
+        "university": "UTSW",
+        "department": "Neuroscience"
+    },
+    {
+        "name": "Kimberly Huber",
+        "email": "kimberly.huber@utsouthwestern.edu",
+        "university": "UTSW",
+        "department": "Neuroscience"
+    },
+    {
+        "name": "Mariko Izumo",
+        "email": "mariko.izumo@utsouthwestern.edu",
+        "university": "UTSW",
+        "department": "Neuroscience"
+    },
+    {
+        "name": "Jane Johnson",
+        "email": "jane.johnson@utsouthwestern.edu",
+        "university": "UTSW",
+        "department": "Neuroscience"
+    },
+    {
+        "name": "Nilay Nandi",
+        "email": "nilay.nandi@utsouthwestern.edu",
+        "university": "UTSW",
+        "department": "Neuroscience"
+    },
+    {
+        "name": "John Abrams",
+        "email": "john.abrams@utsouthwestern.edu",
+        "university": "UTSW",
+        "department": "Cell Biology"
+    },
+    {
+        "name": "Apoorva Bhapkar",
+        "email": "apoorva.bhapkar@utsouthwestern.edu",
+        "university": "UTSW",
+        "department": "Cell Biology"
+    },
+    {
+        "name": "Kyungsuk Choi",
+        "email": "kyungsuk.choi@utsouthwestern.edu",
+        "university": "UTSW",
+        "department": "Cell Biology"
+    },
+    {
+        "name": "Nicholas Conrad",
+        "email": "nicholas.conrad@utsouthwestern.edu",
+        "university": "UTSW",
+        "department": "Microbiology"
+    },
+    {
+        "name": "Ivan Dorso",
+        "email": "ivan.dorso@utsouthwestern.edu",
+        "university": "UTSW",
+        "department": "Microbiology"
+    },
+    {
+        "name": "Jennifer Leigh Eitson",
+        "email": "jennifer.eitson@utsouthwestern.edu",
+        "university": "UTSW",
+        "department": "Microbiology"
+    },
+    {
+        "name": "Neha Ahuja",
+        "email": "neha.ahuja@utsouthwestern.edu",
+        "university": "UTSW",
+        "department": "Molecular Biology"
+    },
+    {
+        "name": "Damir Alzhanov",
+        "email": "damir.alzhanov@utsouthwestern.edu",
+        "university": "UTSW",
+        "department": "Molecular Biology"
+    },
+    {
+        "name": "Michael Buszczak",
+        "email": "michael.buszczak@utsouthwestern.edu",
+        "university": "UTSW",
+        "department": "Molecular Biology"
+    },
+    {
+        "name": "Amanda Casey",
+        "email": "amanda.casey@utsouthwestern.edu",
+        "university": "UTSW",
+        "department": "Molecular Biology"
+    }
+]

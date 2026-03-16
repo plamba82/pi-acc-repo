@@ -1,0 +1,3302 @@
+{
+  "main.py": {
+    "filename": "main.py",
+    "path": "main.py",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "101723": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1773624406,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.2.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {},
+        "hash": "03c1a7b6",
+        "messageId": "system_b99de920-20d6-11f1-bb37-8343d6a8e82b",
+        "codeBlockId": "system_b99de920-20d6-11f1-bb37-8343d6a8e82b-Codeblock-1",
+        "isActive": true
+      },
+      "e5b218": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1773621150,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.2.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {},
+        "hash": "b84f3f4b",
+        "messageId": "system_6d0e7860-20cf-11f1-bb37-8343d6a8e82b",
+        "codeBlockId": "system_6d0e7860-20cf-11f1-bb37-8343d6a8e82b-Codeblock-1",
+        "isActive": false
+      },
+      "b3106e": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1773621165,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.2.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {},
+        "hash": "50d2794b",
+        "messageId": "system_6d0e7860-20cf-11f1-bb37-8343d6a8e82b",
+        "codeBlockId": "system_6d0e7860-20cf-11f1-bb37-8343d6a8e82b-Codeblock-3",
+        "isActive": false
+      },
+      "88d716": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1773621245,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.2.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {},
+        "hash": "b84f3f4b",
+        "messageId": "system_ae3cb810-20cf-11f1-bb37-8343d6a8e82b",
+        "codeBlockId": "system_ae3cb810-20cf-11f1-bb37-8343d6a8e82b-Codeblock-1",
+        "isActive": true
+      },
+      "26aa4b": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1773621661,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.2.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {},
+        "hash": "72100c82",
+        "messageId": "system_5e44f560-20d0-11f1-bb37-8343d6a8e82b",
+        "codeBlockId": "system_5e44f560-20d0-11f1-bb37-8343d6a8e82b-Codeblock-1",
+        "isActive": false
+      },
+      "9f035c": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1773623778,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.2.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {},
+        "hash": "92fca3e8",
+        "messageId": "system_88f693e0-20d5-11f1-bb37-8343d6a8e82b",
+        "codeBlockId": "system_88f693e0-20d5-11f1-bb37-8343d6a8e82b-Codeblock-1",
+        "isActive": false
+      },
+      "1851ea": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5",
+        "timestamp": 1773627907,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.2.0",
+        "source": "chat",
+        "type": "compareCode",
+        "extraContext": {},
+        "hash": "eeaf29fd",
+        "messageId": "system_d32a56d0-20db-11f1-bb37-8343d6a8e82b",
+        "codeBlockId": "system_d32a56d0-20db-11f1-bb37-8343d6a8e82b-Codeblock-1",
+        "isActive": false
+      },
+      "070db9": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5",
+        "timestamp": 1773627910,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.2.0",
+        "source": "chat",
+        "type": "compareCode",
+        "extraContext": {},
+        "hash": "eeaf29fd",
+        "messageId": "system_d32a56d0-20db-11f1-bb37-8343d6a8e82b",
+        "codeBlockId": "system_d32a56d0-20db-11f1-bb37-8343d6a8e82b-Codeblock-1",
+        "isActive": true
+      },
+      "44807b": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5",
+        "timestamp": 1773627985,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.2.0",
+        "source": "chat",
+        "type": "pasteCode",
+        "extraContext": {},
+        "hash": "00e8ef66",
+        "messageId": "system_d32a56d0-20db-11f1-bb37-8343d6a8e82b",
+        "codeBlockId": "system_d32a56d0-20db-11f1-bb37-8343d6a8e82b-Codeblock-1",
+        "isActive": false
+      },
+      "7c79a8": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5",
+        "timestamp": 1773629421,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.2.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {},
+        "hash": "cc4a6e8f",
+        "messageId": "system_799691b0-20e0-11f1-bb37-8343d6a8e82b",
+        "codeBlockId": "system_799691b0-20e0-11f1-bb37-8343d6a8e82b-Codeblock-1",
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "88d716",
+        "hash": "acba5f1c",
+        "encoded": "#!/usr/bin/env%20python3",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "1": {
+        "chunkId": "88d716",
+        "hash": "d0540184",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "2": {
+        "chunkId": "88d716",
+        "hash": "28f5e8d0",
+        "encoded": "AI%20Agent%20for%20Research%20Mentor%20Discovery%20and%20Personalized%20Outreach",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "3": {
+        "chunkId": "88d716",
+        "hash": "05a38896",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "6": {
+        "chunkId": "88d716",
+        "hash": "cd551053",
+        "encoded": "import%20os",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "7": {
+        "chunkId": "88d716",
+        "hash": "6fe05597",
+        "encoded": "import%20json",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "8": {
+        "chunkId": "88d716",
+        "hash": "3ae03abe",
+        "encoded": "import%20asyncio",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "9": {
+        "chunkId": "88d716",
+        "hash": "c4578eae",
+        "encoded": "import%20logging",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "11": {
+        "chunkId": "88d716",
+        "hash": "9b40f1b0",
+        "encoded": "from%20typing%20import%20Dict,%20List,%20Optional,%20Any",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "12": {
+        "chunkId": "88d716",
+        "hash": "395e7b00",
+        "encoded": "from%20dataclasses%20import%20dataclass",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "13": {
+        "chunkId": "88d716",
+        "hash": "c5bec676",
+        "encoded": "from%20pathlib%20import%20Path",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "14": {
+        "chunkId": "88d716",
+        "hash": "c90a035d",
+        "encoded": "from%20openai%20import%20AsyncOpenAI",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "15": {
+        "chunkId": "88d716",
+        "hash": "4c3e710e",
+        "encoded": "import%20aiohttp",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "16": {
+        "chunkId": "88d716",
+        "hash": "41bd120b",
+        "encoded": "import%20time",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "17": {
+        "chunkId": "88d716",
+        "hash": "cb6a6e39",
+        "encoded": "from%20datetime%20import%20datetime",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "19": {
+        "chunkId": "7c79a8",
+        "hash": "a4c99952",
+        "encoded": "#%20CHANGE:%20Configurable%20model%20names%20via%20env%20with%20safe%20defaults%20for%20Chat%20Completions%20API.",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "7c79a8",
+        "hash": "ec4b707e",
+        "encoded": "PROFILE_MODEL%20=%20os.getenv(%22OPENAI_PROFILE_MODEL%22,%20%22gpt-4o-mini%22)",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "7c79a8",
+        "hash": "8ea9cff9",
+        "encoded": "PARSER_MODEL%20=%20os.getenv(%22OPENAI_PARSER_MODEL%22,%20%22gpt-4o-mini%22)",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "7c79a8",
+        "hash": "042b2190",
+        "encoded": "MESSAGE_MODEL%20=%20os.getenv(%22OPENAI_MESSAGE_MODEL%22,%20%22gpt-4o-mini%22)",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "88d716",
+        "hash": "c927e19b",
+        "encoded": "#%20Configure%20logging",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "25": {
+        "chunkId": "88d716",
+        "hash": "30df329d",
+        "encoded": "logging.basicConfig(",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "26": {
+        "chunkId": "88d716",
+        "hash": "ecf5a719",
+        "encoded": "level=logging.INFO,",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "27": {
+        "chunkId": "7c79a8",
+        "hash": "9ef09d68",
+        "encoded": "format=%22%25(asctime)s%20-%20%25(name)s%20-%20%25(levelname)s%20-%20%25(message)s%22",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "88d716",
+        "hash": "590602dd",
+        "encoded": ")",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "29": {
+        "chunkId": "88d716",
+        "hash": "50f50da2",
+        "encoded": "logger%20=%20logging.getLogger(__name__)",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "31": {
+        "chunkId": "88d716",
+        "hash": "c2fcd3c7",
+        "encoded": "@dataclass",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "32": {
+        "chunkId": "88d716",
+        "hash": "413c769a",
+        "encoded": "class%20PersonProfile:",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "33": {
+        "chunkId": "88d716",
+        "hash": "fd8648c2",
+        "encoded": "%22%22%22Data%20structure%20for%20person%20profile%20information%22%22%22",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "34": {
+        "chunkId": "88d716",
+        "hash": "e7e9d264",
+        "encoded": "name:%20str",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "35": {
+        "chunkId": "88d716",
+        "hash": "a29d73b5",
+        "encoded": "email:%20str",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "36": {
+        "chunkId": "88d716",
+        "hash": "1c0e5a1d",
+        "encoded": "university:%20str",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "37": {
+        "chunkId": "88d716",
+        "hash": "6a61efb3",
+        "encoded": "department:%20str",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "38": {
+        "chunkId": "88d716",
+        "hash": "582b3855",
+        "encoded": "research_areas:%20List%5Bstr%5D%20=%20None",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "39": {
+        "chunkId": "88d716",
+        "hash": "9d2571cf",
+        "encoded": "publications:%20List%5Bstr%5D%20=%20None",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "40": {
+        "chunkId": "88d716",
+        "hash": "cd7a2cba",
+        "encoded": "expertise_level:%20str%20=%20%22%22",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "41": {
+        "chunkId": "88d716",
+        "hash": "af618e40",
+        "encoded": "mentorship_potential:%20str%20=%20%22%22",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "42": {
+        "chunkId": "88d716",
+        "hash": "782baf36",
+        "encoded": "contact_preference:%20str%20=%20%22%22",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "44": {
+        "chunkId": "88d716",
+        "hash": "95a633ce",
+        "encoded": "def%20__post_init__(self):",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "45": {
+        "chunkId": "88d716",
+        "hash": "4a9252f8",
+        "encoded": "if%20self.research_areas%20is%20None:",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "46": {
+        "chunkId": "88d716",
+        "hash": "283c0744",
+        "encoded": "self.research_areas%20=%20%5B%5D",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "47": {
+        "chunkId": "88d716",
+        "hash": "e46981a9",
+        "encoded": "if%20self.publications%20is%20None:",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "48": {
+        "chunkId": "88d716",
+        "hash": "c4f624dd",
+        "encoded": "self.publications%20=%20%5B%5D",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "50": {
+        "chunkId": "88d716",
+        "hash": "cbd2c57d",
+        "encoded": "@dataclass",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "51": {
+        "chunkId": "88d716",
+        "hash": "5c728016",
+        "encoded": "class%20ResearchRequest:",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "52": {
+        "chunkId": "88d716",
+        "hash": "a2134a80",
+        "encoded": "%22%22%22Data%20structure%20for%20research%20project%20requirements%22%22%22",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "53": {
+        "chunkId": "88d716",
+        "hash": "c4db20bb",
+        "encoded": "student_level:%20str%20%20#%20%22junior%22%20or%20%22senior%22",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "54": {
+        "chunkId": "88d716",
+        "hash": "0dc512e4",
+        "encoded": "research_topic:%20str",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "55": {
+        "chunkId": "88d716",
+        "hash": "6dbbb4e8",
+        "encoded": "duration:%20str",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "56": {
+        "chunkId": "88d716",
+        "hash": "562c747d",
+        "encoded": "skills_needed:%20List%5Bstr%5D",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "57": {
+        "chunkId": "88d716",
+        "hash": "05c70a5a",
+        "encoded": "timeline:%20str",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "59": {
+        "chunkId": "88d716",
+        "hash": "351fabe8",
+        "encoded": "class%20ResumeReader:",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "60": {
+        "chunkId": "88d716",
+        "hash": "7492910f",
+        "encoded": "%22%22%22Handles%20reading%20and%20parsing%20resume%20content%22%22%22",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "62": {
+        "chunkId": "88d716",
+        "hash": "07fd2d49",
+        "encoded": "def%20__init__(self,%20resume_path:%20str%20=%20%22resume.txt%22):",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "63": {
+        "chunkId": "88d716",
+        "hash": "2c699517",
+        "encoded": "self.resume_path%20=%20Path(resume_path)",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "65": {
+        "chunkId": "88d716",
+        "hash": "e7b39b73",
+        "encoded": "def%20read_resume(self)%20-%3E%20str:",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "66": {
+        "chunkId": "88d716",
+        "hash": "274a7dda",
+        "encoded": "%22%22%22Read%20resume%20content%20from%20local%20file%22%22%22",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "67": {
+        "chunkId": "88d716",
+        "hash": "71f4293d",
+        "encoded": "try:",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "68": {
+        "chunkId": "88d716",
+        "hash": "b99af40d",
+        "encoded": "if%20not%20self.resume_path.exists():",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "69": {
+        "chunkId": "88d716",
+        "hash": "6905d9e1",
+        "encoded": "raise%20FileNotFoundError(f%22Resume%20file%20not%20found:%20%7Bself.resume_path%7D%22)",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "71": {
+        "chunkId": "88d716",
+        "hash": "1ce9e288",
+        "encoded": "with%20open(self.resume_path,%20'r',%20encoding='utf-8')%20as%20file:",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "72": {
+        "chunkId": "88d716",
+        "hash": "928d04d2",
+        "encoded": "content%20=%20file.read().strip()",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "74": {
+        "chunkId": "88d716",
+        "hash": "4efc848b",
+        "encoded": "if%20not%20content:",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "75": {
+        "chunkId": "88d716",
+        "hash": "76846a99",
+        "encoded": "raise%20ValueError(%22Resume%20file%20is%20empty%22)",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "77": {
+        "chunkId": "88d716",
+        "hash": "299a7816",
+        "encoded": "logger.info(f%22Successfully%20read%20resume%20from%20%7Bself.resume_path%7D%22)",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "78": {
+        "chunkId": "88d716",
+        "hash": "bf926017",
+        "encoded": "return%20content",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "80": {
+        "chunkId": "88d716",
+        "hash": "469cf574",
+        "encoded": "except%20Exception%20as%20e:",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "81": {
+        "chunkId": "88d716",
+        "hash": "e54a5481",
+        "encoded": "logger.error(f%22Error%20reading%20resume:%20%7Be%7D%22)",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "82": {
+        "chunkId": "88d716",
+        "hash": "ba0c9cf9",
+        "encoded": "raise",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "84": {
+        "chunkId": "7c79a8",
+        "hash": "1a0d9c52",
+        "encoded": "def%20_strip_code_fences(text:%20str)%20-%3E%20str:",
+        "prevChunkIds": []
+      },
+      "85": {
+        "chunkId": "7c79a8",
+        "hash": "9aeddac1",
+        "encoded": "%22%22%22Remove%20%60%60%60json%20...%20%60%60%60%20fences%20if%20present.%22%22%22",
+        "prevChunkIds": []
+      },
+      "86": {
+        "chunkId": "7c79a8",
+        "hash": "c21d3931",
+        "encoded": "if%20not%20isinstance(text,%20str):",
+        "prevChunkIds": []
+      },
+      "87": {
+        "chunkId": "7c79a8",
+        "hash": "855303cd",
+        "encoded": "return%20%22%22",
+        "prevChunkIds": []
+      },
+      "88": {
+        "chunkId": "7c79a8",
+        "hash": "feaa0797",
+        "encoded": "cleaned%20=%20text.strip()",
+        "prevChunkIds": []
+      },
+      "89": {
+        "chunkId": "7c79a8",
+        "hash": "99da0a2b",
+        "encoded": "if%20cleaned.startswith(%22%60%60%60%22):",
+        "prevChunkIds": []
+      },
+      "90": {
+        "chunkId": "7c79a8",
+        "hash": "fbe1af75",
+        "encoded": "lines%20=%20cleaned.splitlines()",
+        "prevChunkIds": []
+      },
+      "91": {
+        "chunkId": "7c79a8",
+        "hash": "7619f30a",
+        "encoded": "if%20lines:",
+        "prevChunkIds": []
+      },
+      "92": {
+        "chunkId": "7c79a8",
+        "hash": "162360c9",
+        "encoded": "lines%20=%20lines%5B1:%5D",
+        "prevChunkIds": []
+      },
+      "93": {
+        "chunkId": "7c79a8",
+        "hash": "da9bd868",
+        "encoded": "if%20lines%20and%20lines%5B-1%5D.strip()%20==%20%22%60%60%60%22:",
+        "prevChunkIds": []
+      },
+      "94": {
+        "chunkId": "7c79a8",
+        "hash": "e42490fd",
+        "encoded": "lines%20=%20lines%5B:-1%5D",
+        "prevChunkIds": []
+      },
+      "95": {
+        "chunkId": "7c79a8",
+        "hash": "2c4b454c",
+        "encoded": "cleaned%20=%20%22%5Cn%22.join(lines).strip()",
+        "prevChunkIds": []
+      },
+      "96": {
+        "chunkId": "7c79a8",
+        "hash": "70b74fe2",
+        "encoded": "return%20cleaned",
+        "prevChunkIds": []
+      },
+      "98": {
+        "chunkId": "88d716",
+        "hash": "6c91c332",
+        "encoded": "class%20ProfileSearcher:",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "99": {
+        "chunkId": "88d716",
+        "hash": "10a8c05b",
+        "encoded": "%22%22%22Handles%20LLM-based%20profile%20search%20and%20analysis%22%22%22",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "101": {
+        "chunkId": "88d716",
+        "hash": "39bce681",
+        "encoded": "def%20__init__(self,%20api_key:%20str):",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "102": {
+        "chunkId": "7c79a8",
+        "hash": "a340dd19",
+        "encoded": "#%20CHANGE:%20Set%20client-level%20timeout%20instead%20of%20passing%20per-call%20unsupported%20timeout%20kwargs.",
+        "prevChunkIds": []
+      },
+      "103": {
+        "chunkId": "7c79a8",
+        "hash": "08e4afeb",
+        "encoded": "self.client%20=%20AsyncOpenAI(api_key=api_key,%20timeout=30.0)",
+        "prevChunkIds": []
+      },
+      "104": {
+        "chunkId": "88d716",
+        "hash": "2f00456a",
+        "encoded": "self.session%20=%20None",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "106": {
+        "chunkId": "88d716",
+        "hash": "56652e5c",
+        "encoded": "async%20def%20__aenter__(self):",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "107": {
+        "chunkId": "88d716",
+        "hash": "bb5b024e",
+        "encoded": "self.session%20=%20aiohttp.ClientSession(",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "108": {
+        "chunkId": "88d716",
+        "hash": "dbb532fd",
+        "encoded": "timeout=aiohttp.ClientTimeout(total=30),",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "109": {
+        "chunkId": "88d716",
+        "hash": "126f0311",
+        "encoded": "connector=aiohttp.TCPConnector(limit=10)",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "110": {
+        "chunkId": "88d716",
+        "hash": "d8ec04ca",
+        "encoded": ")",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "111": {
+        "chunkId": "88d716",
+        "hash": "81afe57f",
+        "encoded": "return%20self",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "113": {
+        "chunkId": "88d716",
+        "hash": "cba9cc14",
+        "encoded": "async%20def%20__aexit__(self,%20exc_type,%20exc_val,%20exc_tb):",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "114": {
+        "chunkId": "88d716",
+        "hash": "2afc1f35",
+        "encoded": "if%20self.session:",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "115": {
+        "chunkId": "88d716",
+        "hash": "0f784d75",
+        "encoded": "await%20self.session.close()",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "117": {
+        "chunkId": "88d716",
+        "hash": "665dcedd",
+        "encoded": "async%20def%20search_person_profile(self,%20person:%20PersonProfile)%20-%3E%20Dict%5Bstr,%20Any%5D:",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "118": {
+        "chunkId": "88d716",
+        "hash": "22c932e0",
+        "encoded": "%22%22%22Search%20for%20detailed%20profile%20information%20using%20LLM%22%22%22",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "119": {
+        "chunkId": "88d716",
+        "hash": "2efd7193",
+        "encoded": "try:",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "120": {
+        "chunkId": "88d716",
+        "hash": "5f378d44",
+        "encoded": "search_prompt%20=%20f%22%22%22",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "121": {
+        "chunkId": "88d716",
+        "hash": "ea61cccc",
+        "encoded": "Research%20and%20provide%20detailed%20insights%20about%20this%20academic%20professional:",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "123": {
+        "chunkId": "88d716",
+        "hash": "82b4ecc9",
+        "encoded": "Name:%20%7Bperson.name%7D",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "124": {
+        "chunkId": "88d716",
+        "hash": "ee361c10",
+        "encoded": "Email:%20%7Bperson.email%7D",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "125": {
+        "chunkId": "88d716",
+        "hash": "fa3a4759",
+        "encoded": "University:%20%7Bperson.university%7D",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "126": {
+        "chunkId": "88d716",
+        "hash": "8df04cae",
+        "encoded": "Department:%20%7Bperson.department%7D",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "128": {
+        "chunkId": "88d716",
+        "hash": "240c4ac7",
+        "encoded": "Please%20provide:",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "129": {
+        "chunkId": "88d716",
+        "hash": "9b429f7d",
+        "encoded": "1.%20Research%20areas%20and%20expertise",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "130": {
+        "chunkId": "88d716",
+        "hash": "47d7c41b",
+        "encoded": "2.%20Recent%20publications%20or%20notable%20work",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "131": {
+        "chunkId": "88d716",
+        "hash": "fc71a128",
+        "encoded": "3.%20Teaching/mentorship%20experience",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "132": {
+        "chunkId": "88d716",
+        "hash": "96b01f6d",
+        "encoded": "4.%20Suitability%20for%20mentoring%20high%20school%20students",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "133": {
+        "chunkId": "88d716",
+        "hash": "adb456c9",
+        "encoded": "5.%20Preferred%20communication%20style",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "134": {
+        "chunkId": "88d716",
+        "hash": "f7e30b0c",
+        "encoded": "6.%20Research%20project%20types%20they%20might%20be%20interested%20in",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "135": {
+        "chunkId": "88d716",
+        "hash": "06a6b245",
+        "encoded": "7.%20Their%20potential%20availability%20for%20student%20mentorship",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "137": {
+        "chunkId": "88d716",
+        "hash": "b0b246a7",
+        "encoded": "Format%20the%20response%20as%20a%20structured%20analysis%20focusing%20on%20their%20value%20as%20a%20research%20mentor%20for%20high%20school%20students%20working%20on%20junior/senior%20projects.",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "138": {
+        "chunkId": "88d716",
+        "hash": "f23ca914",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "140": {
+        "chunkId": "7c79a8",
+        "hash": "3b2f5b1e",
+        "encoded": "#%20CHANGE:%20Use%20Chat%20Completions%20API%20correctly%20with%20'messages'%20and%20'model'.",
+        "prevChunkIds": []
+      },
+      "163": {
+        "chunkId": "88d716",
+        "hash": "bdce74cb",
+        "encoded": "#%20Parse%20insights%20into%20structured%20format",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "164": {
+        "chunkId": "7c79a8",
+        "hash": "3aebcce6",
+        "encoded": "structured_insights%20=%20await%20self._parse_profile_insights(profile_insights_text)",
+        "prevChunkIds": []
+      },
+      "166": {
+        "chunkId": "88d716",
+        "hash": "57461ee8",
+        "encoded": "logger.info(f%22Successfully%20analyzed%20profile%20for%20%7Bperson.name%7D%22)",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "167": {
+        "chunkId": "88d716",
+        "hash": "1d098737",
+        "encoded": "return%20structured_insights",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "169": {
+        "chunkId": "88d716",
+        "hash": "f85910fe",
+        "encoded": "except%20Exception%20as%20e:",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "170": {
+        "chunkId": "88d716",
+        "hash": "704ce4ac",
+        "encoded": "logger.error(f%22Error%20searching%20profile%20for%20%7Bperson.name%7D:%20%7Be%7D%22)",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "171": {
+        "chunkId": "88d716",
+        "hash": "ae2b18dc",
+        "encoded": "raise",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "173": {
+        "chunkId": "88d716",
+        "hash": "81c8df06",
+        "encoded": "async%20def%20_parse_profile_insights(self,%20insights:%20str)%20-%3E%20Dict%5Bstr,%20Any%5D:",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "174": {
+        "chunkId": "88d716",
+        "hash": "52412ff3",
+        "encoded": "%22%22%22Parse%20LLM%20response%20into%20structured%20format%22%22%22",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "175": {
+        "chunkId": "88d716",
+        "hash": "8f32876e",
+        "encoded": "try:",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "176": {
+        "chunkId": "88d716",
+        "hash": "1e709064",
+        "encoded": "parse_prompt%20=%20f%22%22%22",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "177": {
+        "chunkId": "88d716",
+        "hash": "9f31f9c4",
+        "encoded": "Parse%20the%20following%20profile%20insights%20into%20a%20structured%20JSON%20format:",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "179": {
+        "chunkId": "88d716",
+        "hash": "35589f44",
+        "encoded": "%7Binsights%7D",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "181": {
+        "chunkId": "88d716",
+        "hash": "60661001",
+        "encoded": "Return%20a%20JSON%20object%20with%20these%20keys:",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "182": {
+        "chunkId": "88d716",
+        "hash": "2d6538bc",
+        "encoded": "-%20research_areas:%20array%20of%20research%20topics",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "183": {
+        "chunkId": "88d716",
+        "hash": "e7dd6e2f",
+        "encoded": "-%20publications:%20array%20of%20notable%20publications/work",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "184": {
+        "chunkId": "88d716",
+        "hash": "c4d64b29",
+        "encoded": "-%20mentorship_experience:%20string%20describing%20teaching/mentorship%20background",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "185": {
+        "chunkId": "88d716",
+        "hash": "f26977a6",
+        "encoded": "-%20student_suitability:%20string%20rating%20(High/Medium/Low)%20with%20explanation",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "186": {
+        "chunkId": "88d716",
+        "hash": "90d4ddd6",
+        "encoded": "-%20communication_style:%20string%20describing%20preferred%20communication",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "187": {
+        "chunkId": "88d716",
+        "hash": "2f534230",
+        "encoded": "-%20project_interests:%20array%20of%20project%20types%20they%20might%20mentor",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "188": {
+        "chunkId": "88d716",
+        "hash": "852252e5",
+        "encoded": "-%20availability_likelihood:%20string%20assessment%20of%20their%20availability",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "189": {
+        "chunkId": "88d716",
+        "hash": "babd13ed",
+        "encoded": "-%20expertise_level:%20string%20(Expert/Advanced/Intermediate)",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "190": {
+        "chunkId": "88d716",
+        "hash": "79dbe91f",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "192": {
+        "chunkId": "7c79a8",
+        "hash": "8c8a7ac8",
+        "encoded": "#%20CHANGE:%20Standardize%20to%20Chat%20Completions;%20return%20only%20JSON.",
+        "prevChunkIds": []
+      },
+      "193": {
+        "chunkId": "7c79a8",
+        "hash": "4dc35aa2",
+        "encoded": "chat%20=%20await%20self.client.chat.completions.create(",
+        "prevChunkIds": []
+      },
+      "194": {
+        "chunkId": "7c79a8",
+        "hash": "a642a4ca",
+        "encoded": "model=PARSER_MODEL,",
+        "prevChunkIds": []
+      },
+      "195": {
+        "chunkId": "88d716",
+        "hash": "0277800a",
+        "encoded": "messages=%5B",
+        "prevChunkIds": []
+      },
+      "196": {
+        "chunkId": "88d716",
+        "hash": "1e40773e",
+        "encoded": "%7B%22role%22:%20%22system%22,%20%22content%22:%20%22You%20are%20a%20data%20parser.%20Return%20only%20valid%20JSON%20without%20any%20additional%20text%20or%20formatting.%22%7D,",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "197": {
+        "chunkId": "88d716",
+        "hash": "6cbc3da5",
+        "encoded": "%7B%22role%22:%20%22user%22,%20%22content%22:%20parse_prompt%7D",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "198": {
+        "chunkId": "88d716",
+        "hash": "9b10ef92",
+        "encoded": "%5D,",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "199": {
+        "chunkId": "7c79a8",
+        "hash": "c464a90a",
+        "encoded": "max_tokens=600,",
+        "prevChunkIds": []
+      },
+      "200": {
+        "chunkId": "88d716",
+        "hash": "37b15baf",
+        "encoded": "temperature=0.1",
+        "prevChunkIds": []
+      },
+      "201": {
+        "chunkId": "88d716",
+        "hash": "137907cf",
+        "encoded": ")",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "202": {
+        "chunkId": "7c79a8",
+        "hash": "12b95400",
+        "encoded": "content%20=%20(chat.choices%5B0%5D.message.content%20or%20%22%22).strip()",
+        "prevChunkIds": []
+      },
+      "203": {
+        "chunkId": "7c79a8",
+        "hash": "e0ea28b5",
+        "encoded": "json_text%20=%20_strip_code_fences(content)",
+        "prevChunkIds": []
+      },
+      "207": {
+        "chunkId": "88d716",
+        "hash": "2f910831",
+        "encoded": "except%20Exception%20as%20e:",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "208": {
+        "chunkId": "88d716",
+        "hash": "7824039e",
+        "encoded": "logger.error(f%22Error%20parsing%20profile%20insights:%20%7Be%7D%22)",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "209": {
+        "chunkId": "88d716",
+        "hash": "f6447cd4",
+        "encoded": "#%20Return%20default%20structure%20if%20parsing%20fails",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "210": {
+        "chunkId": "88d716",
+        "hash": "0dee48a4",
+        "encoded": "return%20%7B",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "211": {
+        "chunkId": "88d716",
+        "hash": "d5683892",
+        "encoded": "%22research_areas%22:%20%5B%5D,",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "212": {
+        "chunkId": "88d716",
+        "hash": "189e7d8c",
+        "encoded": "%22publications%22:%20%5B%5D,",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "213": {
+        "chunkId": "88d716",
+        "hash": "c3b05d04",
+        "encoded": "%22mentorship_experience%22:%20%22Information%20not%20available%22,",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "214": {
+        "chunkId": "88d716",
+        "hash": "4deb5eb2",
+        "encoded": "%22student_suitability%22:%20%22Medium%20-%20Requires%20further%20assessment%22,",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "215": {
+        "chunkId": "88d716",
+        "hash": "0a420a3e",
+        "encoded": "%22communication_style%22:%20%22Professional%20academic%20communication%22,",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "216": {
+        "chunkId": "88d716",
+        "hash": "35f92554",
+        "encoded": "%22project_interests%22:%20%5B%5D,",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "217": {
+        "chunkId": "88d716",
+        "hash": "8cb43530",
+        "encoded": "%22availability_likelihood%22:%20%22Unknown%22,",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "218": {
+        "chunkId": "88d716",
+        "hash": "d0c2f028",
+        "encoded": "%22expertise_level%22:%20%22Advanced%22",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "219": {
+        "chunkId": "88d716",
+        "hash": "7b57fe24",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "221": {
+        "chunkId": "88d716",
+        "hash": "88e4cc7f",
+        "encoded": "class%20MessagePersonalizer:",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "222": {
+        "chunkId": "88d716",
+        "hash": "20907670",
+        "encoded": "%22%22%22Handles%20personalized%20message%20generation%22%22%22",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "224": {
+        "chunkId": "88d716",
+        "hash": "1bb8316a",
+        "encoded": "def%20__init__(self,%20api_key:%20str):",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "225": {
+        "chunkId": "7c79a8",
+        "hash": "3e6c58a1",
+        "encoded": "#%20CHANGE:%20Set%20client-level%20timeout.",
+        "prevChunkIds": []
+      },
+      "226": {
+        "chunkId": "7c79a8",
+        "hash": "2b0eebe9",
+        "encoded": "self.client%20=%20AsyncOpenAI(api_key=api_key,%20timeout=30.0)",
+        "prevChunkIds": []
+      },
+      "228": {
+        "chunkId": "88d716",
+        "hash": "35cf9e7f",
+        "encoded": "async%20def%20generate_personalized_message(",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "229": {
+        "chunkId": "88d716",
+        "hash": "f356cf2a",
+        "encoded": "self,",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "230": {
+        "chunkId": "88d716",
+        "hash": "784a93b0",
+        "encoded": "person:%20PersonProfile,",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "231": {
+        "chunkId": "88d716",
+        "hash": "b52be685",
+        "encoded": "profile_insights:%20Dict%5Bstr,%20Any%5D,",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "232": {
+        "chunkId": "88d716",
+        "hash": "72c930cf",
+        "encoded": "resume_content:%20str,",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "233": {
+        "chunkId": "88d716",
+        "hash": "7f573e2e",
+        "encoded": "research_request:%20ResearchRequest",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "234": {
+        "chunkId": "88d716",
+        "hash": "291a6609",
+        "encoded": ")%20-%3E%20str:",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "235": {
+        "chunkId": "88d716",
+        "hash": "43171806",
+        "encoded": "%22%22%22Generate%20personalized%20outreach%20message%22%22%22",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "236": {
+        "chunkId": "88d716",
+        "hash": "e9cd8c34",
+        "encoded": "try:",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "237": {
+        "chunkId": "88d716",
+        "hash": "915e5bad",
+        "encoded": "message_prompt%20=%20f%22%22%22",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "238": {
+        "chunkId": "88d716",
+        "hash": "7e6fbeea",
+        "encoded": "Create%20a%20personalized,%20professional%20outreach%20email%20for%20a%20high%20school%20student%20seeking%20research%20mentorship.",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "240": {
+        "chunkId": "88d716",
+        "hash": "f001eb09",
+        "encoded": "RECIPIENT%20PROFILE:",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "241": {
+        "chunkId": "88d716",
+        "hash": "203cfabf",
+        "encoded": "Name:%20%7Bperson.name%7D",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "242": {
+        "chunkId": "88d716",
+        "hash": "cfafc0a1",
+        "encoded": "University:%20%7Bperson.university%7D",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "243": {
+        "chunkId": "88d716",
+        "hash": "ff0d23c6",
+        "encoded": "Department:%20%7Bperson.department%7D",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "244": {
+        "chunkId": "88d716",
+        "hash": "329a2ae8",
+        "encoded": "Research%20Areas:%20%7B',%20'.join(profile_insights.get('research_areas',%20%5B%5D))%7D",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "245": {
+        "chunkId": "88d716",
+        "hash": "c3ce6bd6",
+        "encoded": "Mentorship%20Experience:%20%7Bprofile_insights.get('mentorship_experience',%20'N/A')%7D",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "246": {
+        "chunkId": "88d716",
+        "hash": "0aef031b",
+        "encoded": "Student%20Suitability:%20%7Bprofile_insights.get('student_suitability',%20'N/A')%7D",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "247": {
+        "chunkId": "88d716",
+        "hash": "1aae4c13",
+        "encoded": "Communication%20Style:%20%7Bprofile_insights.get('communication_style',%20'Professional')%7D",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "249": {
+        "chunkId": "88d716",
+        "hash": "d522bd41",
+        "encoded": "STUDENT%20BACKGROUND%20(from%20resume):",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "250": {
+        "chunkId": "88d716",
+        "hash": "73b2f489",
+        "encoded": "%7Bresume_content%7D",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "252": {
+        "chunkId": "88d716",
+        "hash": "5ec31b1e",
+        "encoded": "RESEARCH%20REQUEST:",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "253": {
+        "chunkId": "88d716",
+        "hash": "2b315390",
+        "encoded": "Student%20Level:%20%7Bresearch_request.student_level%7D",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "254": {
+        "chunkId": "88d716",
+        "hash": "7c7631a1",
+        "encoded": "Research%20Topic:%20%7Bresearch_request.research_topic%7D",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "255": {
+        "chunkId": "88d716",
+        "hash": "6fbe8277",
+        "encoded": "Duration:%20%7Bresearch_request.duration%7D",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "256": {
+        "chunkId": "88d716",
+        "hash": "7bce243d",
+        "encoded": "Skills%20Needed:%20%7B',%20'.join(research_request.skills_needed)%7D",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "257": {
+        "chunkId": "88d716",
+        "hash": "cd9916d2",
+        "encoded": "Timeline:%20%7Bresearch_request.timeline%7D",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "259": {
+        "chunkId": "101723",
+        "hash": "0c8b6851",
+        "encoded": "MANDATORY%20MESSAGE%20COMPONENTS%20(MUST%20BE%20INCLUDED%20EXACTLY):",
+        "prevChunkIds": [
+          "101723"
+        ]
+      },
+      "261": {
+        "chunkId": "101723",
+        "hash": "05dafd2e",
+        "encoded": "Opening:%20%22I%20hope%20this%20message%20finds%20you%20well.%20My%20name%20is%20Krishiv%20Lamba,%20a%20rising%20junior%20at%20The%20School%20for%20the%20Talented%20and%20Gifted%20at%20Yvonne%20A.%20Ewell%20Townview%20Magnet%20Center.%20I%20am%20reaching%20out%20to%20express%20my%20interest%20in%20your%20research%20and%20to%20explore%20the%20possibility%20of%20working%20under%20your%20mentorship.%22",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "263": {
+        "chunkId": "101723",
+        "hash": "279fa1ff",
+        "encoded": "Availability:%20%22I%20am%20eager%20to%20apply%20these%20skills%20and%20my%20passion%20for%20combining%20technical%20skills%20with%20real-world%20impact%20to%20your%20research.%20I%20am%20available%20for%2010-15%20hours%20per%20week%20starting%20as%20soon%20as%20possible%20and%20can%20commit%20to%20a%206%E2%80%9312-month%20duration.%22",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "267": {
+        "chunkId": "070db9",
+        "hash": "303afe7f",
+        "encoded": "REQUIREMENTS:",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "268": {
+        "chunkId": "7c79a8",
+        "hash": "12ffb3bb",
+        "encoded": "1.%20MUST%20start%20with%20the%20exact%20opening%20message%20provided%20above",
+        "prevChunkIds": []
+      },
+      "269": {
+        "chunkId": "101723",
+        "hash": "7ba886ed",
+        "encoded": "2.%20Include%20a%20personalized%20middle%20section%20that%20connects%20the%20student's%20background%20to%20the%20professor's%20research",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "270": {
+        "chunkId": "101723",
+        "hash": "3e714aa4",
+        "encoded": "3.%20MUST%20include%20the%20exact%20availability%20statement%20provided%20above",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "271": {
+        "chunkId": "7c79a8",
+        "hash": "47a9a575",
+        "encoded": "4.%20MUST%20end%20with%20the%20exact%20closing%20message%20provided%20above",
+        "prevChunkIds": []
+      },
+      "272": {
+        "chunkId": "7c79a8",
+        "hash": "a99313a6",
+        "encoded": "5.%20Professional%20yet%20approachable%20tone%20throughout",
+        "prevChunkIds": []
+      },
+      "273": {
+        "chunkId": "7c79a8",
+        "hash": "8c83e057",
+        "encoded": "6.%20Highlight%20relevant%20connections%20between%20student%20background%20and%20professor's%20expertise%20in%20the%20middle%20section",
+        "prevChunkIds": []
+      },
+      "274": {
+        "chunkId": "7c79a8",
+        "hash": "f88e8c82",
+        "encoded": "7.%20Include%20appropriate%20subject%20line",
+        "prevChunkIds": []
+      },
+      "275": {
+        "chunkId": "7c79a8",
+        "hash": "df6c55e4",
+        "encoded": "8.%20Total%20length%20should%20be%20300-450%20words",
+        "prevChunkIds": []
+      },
+      "277": {
+        "chunkId": "070db9",
+        "hash": "68fddb4d",
+        "encoded": "Format%20as:",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "278": {
+        "chunkId": "070db9",
+        "hash": "f159a583",
+        "encoded": "Subject:%20%5Bsubject%20line%5D",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "280": {
+        "chunkId": "070db9",
+        "hash": "e0bec73b",
+        "encoded": "%5Bemail%20body%20with%20mandatory%20components%5D",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "281": {
+        "chunkId": "070db9",
+        "hash": "eafd2246",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "283": {
+        "chunkId": "7c79a8",
+        "hash": "d651f8e0",
+        "encoded": "#%20CHANGE:%20Use%20Chat%20Completions%20correctly%20(messages%20+%20max_tokens).",
+        "prevChunkIds": []
+      },
+      "284": {
+        "chunkId": "7c79a8",
+        "hash": "3be4a802",
+        "encoded": "chat%20=%20await%20self.client.chat.completions.create(",
+        "prevChunkIds": []
+      },
+      "285": {
+        "chunkId": "7c79a8",
+        "hash": "cdab6dc8",
+        "encoded": "model=MESSAGE_MODEL,",
+        "prevChunkIds": []
+      },
+      "286": {
+        "chunkId": "7c79a8",
+        "hash": "6ea1c027",
+        "encoded": "messages=%5B",
+        "prevChunkIds": []
+      },
+      "287": {
+        "chunkId": "101723",
+        "hash": "45931b57",
+        "encoded": "%7B%22role%22:%20%22system%22,%20%22content%22:%20%22You%20are%20an%20expert%20in%20academic%20communication%20and%20student%20mentorship.%20Create%20compelling,%20personalized%20outreach%20messages%20that%20include%20all%20mandatory%20components%20exactly%20as%20specified%20while%20maintaining%20professional%20quality.%22%7D,",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "288": {
+        "chunkId": "070db9",
+        "hash": "00c3d918",
+        "encoded": "%7B%22role%22:%20%22user%22,%20%22content%22:%20message_prompt%7D",
+        "prevChunkIds": []
+      },
+      "289": {
+        "chunkId": "88d716",
+        "hash": "e9f3d781",
+        "encoded": "%5D,",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "290": {
+        "chunkId": "7c79a8",
+        "hash": "8baef5a1",
+        "encoded": "max_tokens=900,",
+        "prevChunkIds": []
+      },
+      "291": {
+        "chunkId": "7c79a8",
+        "hash": "9d843dd5",
+        "encoded": "temperature=0.4",
+        "prevChunkIds": []
+      },
+      "292": {
+        "chunkId": "88d716",
+        "hash": "fe643829",
+        "encoded": ")",
+        "prevChunkIds": [
+          "88d716"
+        ]
+      },
+      "293": {
+        "chunkId": "7c79a8",
+        "hash": "236fa947",
+        "encoded": "personalized_message%20=%20(chat.choices%5B0%5D.message.content%20or%20%22%22).strip()",
+        "prevChunkIds": []
+      },
+      "294": {
+        "chunkId": "070db9",
+        "hash": "e298712c",
+        "encoded": "logger.info(f%22Generated%20personalized%20message%20for%20%7Bperson.name%7D%22)",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "295": {
+        "chunkId": "88d716",
+        "hash": "2853ea8c",
+        "encoded": "return%20personalized_message",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "297": {
+        "chunkId": "070db9",
+        "hash": "8fa2e518",
+        "encoded": "except%20Exception%20as%20e:",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "298": {
+        "chunkId": "070db9",
+        "hash": "aafafb2f",
+        "encoded": "logger.error(f%22Error%20generating%20message%20for%20%7Bperson.name%7D:%20%7Be%7D%22)",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "299": {
+        "chunkId": "070db9",
+        "hash": "1e9480d1",
+        "encoded": "raise",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "301": {
+        "chunkId": "070db9",
+        "hash": "0447b5bd",
+        "encoded": "class%20ResearchMentorAgent:",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "302": {
+        "chunkId": "070db9",
+        "hash": "7261fa2b",
+        "encoded": "%22%22%22Main%20AI%20agent%20orchestrating%20the%20research%20mentor%20discovery%20process%22%22%22",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "304": {
+        "chunkId": "070db9",
+        "hash": "8e96458d",
+        "encoded": "def%20__init__(self,%20openai_api_key:%20str,%20resume_path:%20str%20=%20%22resume.txt%22):",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "305": {
+        "chunkId": "070db9",
+        "hash": "34e633d4",
+        "encoded": "self.openai_api_key%20=%20openai_api_key",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "306": {
+        "chunkId": "070db9",
+        "hash": "a9222c2b",
+        "encoded": "self.resume_reader%20=%20ResumeReader(resume_path)",
+        "prevChunkIds": []
+      },
+      "307": {
+        "chunkId": "070db9",
+        "hash": "6ea7ea70",
+        "encoded": "self.resume_content%20=%20None",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "309": {
+        "chunkId": "070db9",
+        "hash": "58ed2cfc",
+        "encoded": "async%20def%20initialize(self):",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "310": {
+        "chunkId": "070db9",
+        "hash": "fe2ffd63",
+        "encoded": "%22%22%22Initialize%20the%20agent%20by%20reading%20resume%22%22%22",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "311": {
+        "chunkId": "070db9",
+        "hash": "c8e6c852",
+        "encoded": "try:",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "312": {
+        "chunkId": "070db9",
+        "hash": "0fb0985e",
+        "encoded": "self.resume_content%20=%20self.resume_reader.read_resume()",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "313": {
+        "chunkId": "070db9",
+        "hash": "0c095ff0",
+        "encoded": "logger.info(%22Research%20Mentor%20Agent%20initialized%20successfully%22)",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "314": {
+        "chunkId": "070db9",
+        "hash": "2fde64d4",
+        "encoded": "except%20Exception%20as%20e:",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "315": {
+        "chunkId": "070db9",
+        "hash": "28e7cacb",
+        "encoded": "logger.error(f%22Failed%20to%20initialize%20agent:%20%7Be%7D%22)",
+        "prevChunkIds": []
+      },
+      "316": {
+        "chunkId": "070db9",
+        "hash": "6a08454a",
+        "encoded": "raise",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "318": {
+        "chunkId": "070db9",
+        "hash": "cd7d2bbd",
+        "encoded": "#%20CHANGE:%20Added%20method%20to%20load%20PersonProfile%20objects%20from%20JSON%20file",
+        "prevChunkIds": []
+      },
+      "319": {
+        "chunkId": "070db9",
+        "hash": "cdda954b",
+        "encoded": "def%20load_contacts_from_json(self,%20json_file_path:%20str)%20-%3E%20List%5BPersonProfile%5D:",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "320": {
+        "chunkId": "070db9",
+        "hash": "51a53214",
+        "encoded": "%22%22%22Load%20multiple%20contacts%20from%20JSON%20file%20and%20convert%20to%20PersonProfile%20objects%22%22%22",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "321": {
+        "chunkId": "070db9",
+        "hash": "f9076d0d",
+        "encoded": "try:",
+        "prevChunkIds": []
+      },
+      "322": {
+        "chunkId": "070db9",
+        "hash": "a35246bf",
+        "encoded": "json_path%20=%20Path(json_file_path)",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "323": {
+        "chunkId": "070db9",
+        "hash": "3a68485b",
+        "encoded": "if%20not%20json_path.exists():",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "324": {
+        "chunkId": "070db9",
+        "hash": "4a124914",
+        "encoded": "raise%20FileNotFoundError(f%22JSON%20file%20not%20found:%20%7Bjson_file_path%7D%22)",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "326": {
+        "chunkId": "070db9",
+        "hash": "9c992d0f",
+        "encoded": "with%20open(json_path,%20'r',%20encoding='utf-8')%20as%20f:",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "327": {
+        "chunkId": "070db9",
+        "hash": "39dccf8e",
+        "encoded": "data%20=%20json.load(f)",
+        "prevChunkIds": []
+      },
+      "329": {
+        "chunkId": "070db9",
+        "hash": "6432881c",
+        "encoded": "#%20Handle%20both%20single%20object%20and%20array%20of%20objects",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "330": {
+        "chunkId": "070db9",
+        "hash": "514426c2",
+        "encoded": "if%20isinstance(data,%20dict):",
+        "prevChunkIds": []
+      },
+      "331": {
+        "chunkId": "070db9",
+        "hash": "a7c93c88",
+        "encoded": "data%20=%20%5Bdata%5D",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "332": {
+        "chunkId": "070db9",
+        "hash": "b5114dcc",
+        "encoded": "elif%20not%20isinstance(data,%20list):",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "333": {
+        "chunkId": "070db9",
+        "hash": "ed4520ce",
+        "encoded": "raise%20ValueError(%22JSON%20file%20must%20contain%20an%20object%20or%20array%20of%20objects%22)",
+        "prevChunkIds": []
+      },
+      "335": {
+        "chunkId": "070db9",
+        "hash": "dade0145",
+        "encoded": "contacts%20=%20%5B%5D",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "336": {
+        "chunkId": "070db9",
+        "hash": "c1e0a609",
+        "encoded": "for%20i,%20contact_data%20in%20enumerate(data):",
+        "prevChunkIds": []
+      },
+      "337": {
+        "chunkId": "070db9",
+        "hash": "555a95f6",
+        "encoded": "try:",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "338": {
+        "chunkId": "070db9",
+        "hash": "fb9087af",
+        "encoded": "#%20Validate%20required%20fields",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "339": {
+        "chunkId": "070db9",
+        "hash": "eadf7d9e",
+        "encoded": "required_fields%20=%20%5B'name',%20'email',%20'university',%20'department'%5D",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "340": {
+        "chunkId": "070db9",
+        "hash": "1154248a",
+        "encoded": "missing_fields%20=%20%5Bfield%20for%20field%20in%20required_fields%20if%20field%20not%20in%20contact_data%5D",
+        "prevChunkIds": []
+      },
+      "341": {
+        "chunkId": "070db9",
+        "hash": "5efcd3fa",
+        "encoded": "if%20missing_fields:",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "342": {
+        "chunkId": "070db9",
+        "hash": "8fc6a4fb",
+        "encoded": "raise%20ValueError(f%22Missing%20required%20fields:%20%7Bmissing_fields%7D%22)",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "344": {
+        "chunkId": "070db9",
+        "hash": "4c450d92",
+        "encoded": "contact%20=%20PersonProfile(",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "345": {
+        "chunkId": "070db9",
+        "hash": "5672f2da",
+        "encoded": "name=contact_data%5B'name'%5D,",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "346": {
+        "chunkId": "070db9",
+        "hash": "4fe6598f",
+        "encoded": "email=contact_data%5B'email'%5D,",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "347": {
+        "chunkId": "070db9",
+        "hash": "a0e6f5a1",
+        "encoded": "university=contact_data%5B'university'%5D,",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "348": {
+        "chunkId": "070db9",
+        "hash": "3dc62e0c",
+        "encoded": "department=contact_data%5B'department'%5D,",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "349": {
+        "chunkId": "070db9",
+        "hash": "a2beb5c1",
+        "encoded": "research_areas=contact_data.get('research_areas',%20%5B%5D),",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "350": {
+        "chunkId": "070db9",
+        "hash": "6491f7bd",
+        "encoded": "publications=contact_data.get('publications',%20%5B%5D),",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "351": {
+        "chunkId": "070db9",
+        "hash": "22d74566",
+        "encoded": "expertise_level=contact_data.get('expertise_level',%20''),",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "352": {
+        "chunkId": "070db9",
+        "hash": "f269b574",
+        "encoded": "mentorship_potential=contact_data.get('mentorship_potential',%20''),",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "353": {
+        "chunkId": "070db9",
+        "hash": "a37dfc30",
+        "encoded": "contact_preference=contact_data.get('contact_preference',%20'')",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "354": {
+        "chunkId": "070db9",
+        "hash": "d0097431",
+        "encoded": ")",
+        "prevChunkIds": []
+      },
+      "355": {
+        "chunkId": "070db9",
+        "hash": "4b6979e8",
+        "encoded": "contacts.append(contact)",
+        "prevChunkIds": []
+      },
+      "357": {
+        "chunkId": "070db9",
+        "hash": "b704ed08",
+        "encoded": "except%20Exception%20as%20e:",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "358": {
+        "chunkId": "070db9",
+        "hash": "696f4a20",
+        "encoded": "logger.error(f%22Error%20processing%20contact%20%7Bi+1%7D:%20%7Be%7D%22)",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "359": {
+        "chunkId": "070db9",
+        "hash": "6560764b",
+        "encoded": "continue",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "361": {
+        "chunkId": "070db9",
+        "hash": "b9058536",
+        "encoded": "if%20not%20contacts:",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "362": {
+        "chunkId": "070db9",
+        "hash": "d3814016",
+        "encoded": "raise%20ValueError(%22No%20valid%20contacts%20found%20in%20JSON%20file%22)",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "364": {
+        "chunkId": "070db9",
+        "hash": "25badc66",
+        "encoded": "logger.info(f%22Successfully%20loaded%20%7Blen(contacts)%7D%20contacts%20from%20%7Bjson_file_path%7D%22)",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "365": {
+        "chunkId": "070db9",
+        "hash": "25608373",
+        "encoded": "return%20contacts",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "367": {
+        "chunkId": "070db9",
+        "hash": "e2c18269",
+        "encoded": "except%20Exception%20as%20e:",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "368": {
+        "chunkId": "070db9",
+        "hash": "13946286",
+        "encoded": "logger.error(f%22Error%20loading%20contacts%20from%20%7Bjson_file_path%7D:%20%7Be%7D%22)",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "369": {
+        "chunkId": "070db9",
+        "hash": "38d8881f",
+        "encoded": "raise",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "371": {
+        "chunkId": "070db9",
+        "hash": "f722c625",
+        "encoded": "async%20def%20find_and_personalize_outreach(",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "372": {
+        "chunkId": "070db9",
+        "hash": "f93d2fab",
+        "encoded": "self,",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "373": {
+        "chunkId": "070db9",
+        "hash": "73dcb12e",
+        "encoded": "person:%20PersonProfile,",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "374": {
+        "chunkId": "070db9",
+        "hash": "6f0b7f54",
+        "encoded": "research_request:%20ResearchRequest",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "375": {
+        "chunkId": "070db9",
+        "hash": "4276bebd",
+        "encoded": ")%20-%3E%20Dict%5Bstr,%20Any%5D:",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "376": {
+        "chunkId": "070db9",
+        "hash": "959244ac",
+        "encoded": "%22%22%22Complete%20workflow:%20search%20profile%20and%20generate%20personalized%20message%22%22%22",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "377": {
+        "chunkId": "070db9",
+        "hash": "1c8b3fc2",
+        "encoded": "try:",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "378": {
+        "chunkId": "070db9",
+        "hash": "bc218bfd",
+        "encoded": "if%20not%20self.resume_content:",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "379": {
+        "chunkId": "070db9",
+        "hash": "9c7c5e5c",
+        "encoded": "await%20self.initialize()",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "381": {
+        "chunkId": "070db9",
+        "hash": "4c372d5d",
+        "encoded": "#%20Search%20for%20detailed%20profile%20information",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "382": {
+        "chunkId": "070db9",
+        "hash": "260e19aa",
+        "encoded": "async%20with%20ProfileSearcher(self.openai_api_key)%20as%20searcher:",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "383": {
+        "chunkId": "070db9",
+        "hash": "e1c079dd",
+        "encoded": "profile_insights%20=%20await%20searcher.search_person_profile(person)",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "385": {
+        "chunkId": "070db9",
+        "hash": "589ac988",
+        "encoded": "#%20Generate%20personalized%20message",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "386": {
+        "chunkId": "070db9",
+        "hash": "c23367b4",
+        "encoded": "personalizer%20=%20MessagePersonalizer(self.openai_api_key)",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "387": {
+        "chunkId": "070db9",
+        "hash": "340fc8cc",
+        "encoded": "personalized_message%20=%20await%20personalizer.generate_personalized_message(",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "388": {
+        "chunkId": "070db9",
+        "hash": "471725e3",
+        "encoded": "person,%20profile_insights,%20self.resume_content,%20research_request",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "389": {
+        "chunkId": "070db9",
+        "hash": "f372dfd5",
+        "encoded": ")",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "391": {
+        "chunkId": "070db9",
+        "hash": "43e54007",
+        "encoded": "#%20Compile%20results",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "392": {
+        "chunkId": "070db9",
+        "hash": "a97833d8",
+        "encoded": "result%20=%20%7B",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "393": {
+        "chunkId": "070db9",
+        "hash": "55b9b1db",
+        "encoded": "%22person_profile%22:%20%7B",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "394": {
+        "chunkId": "070db9",
+        "hash": "9c0766a5",
+        "encoded": "%22name%22:%20person.name,",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "395": {
+        "chunkId": "070db9",
+        "hash": "78b7e407",
+        "encoded": "%22email%22:%20person.email,",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "396": {
+        "chunkId": "070db9",
+        "hash": "b8b46b10",
+        "encoded": "%22university%22:%20person.university,",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "397": {
+        "chunkId": "070db9",
+        "hash": "11873947",
+        "encoded": "%22department%22:%20person.department",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "398": {
+        "chunkId": "070db9",
+        "hash": "75bf4eb7",
+        "encoded": "%7D,",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "399": {
+        "chunkId": "070db9",
+        "hash": "97b40986",
+        "encoded": "%22profile_insights%22:%20profile_insights,",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "400": {
+        "chunkId": "070db9",
+        "hash": "9c0f8e79",
+        "encoded": "%22personalized_message%22:%20personalized_message,",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "401": {
+        "chunkId": "070db9",
+        "hash": "1e891cd1",
+        "encoded": "%22research_request%22:%20%7B",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "402": {
+        "chunkId": "070db9",
+        "hash": "986d9525",
+        "encoded": "%22student_level%22:%20research_request.student_level,",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "403": {
+        "chunkId": "070db9",
+        "hash": "cf6c3aa7",
+        "encoded": "%22research_topic%22:%20research_request.research_topic,",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "404": {
+        "chunkId": "070db9",
+        "hash": "33fd97ce",
+        "encoded": "%22duration%22:%20research_request.duration,",
+        "prevChunkIds": []
+      },
+      "405": {
+        "chunkId": "070db9",
+        "hash": "c64bc9d1",
+        "encoded": "%22timeline%22:%20research_request.timeline",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "406": {
+        "chunkId": "070db9",
+        "hash": "45e628b1",
+        "encoded": "%7D,",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "407": {
+        "chunkId": "070db9",
+        "hash": "3dac912a",
+        "encoded": "%22generated_at%22:%20datetime.now().isoformat()",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "408": {
+        "chunkId": "070db9",
+        "hash": "3753a35c",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "410": {
+        "chunkId": "070db9",
+        "hash": "4bf7028c",
+        "encoded": "logger.info(f%22Successfully%20completed%20outreach%20preparation%20for%20%7Bperson.name%7D%22)",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "411": {
+        "chunkId": "070db9",
+        "hash": "603dadc0",
+        "encoded": "return%20result",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "413": {
+        "chunkId": "070db9",
+        "hash": "eb438ab8",
+        "encoded": "except%20Exception%20as%20e:",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "414": {
+        "chunkId": "070db9",
+        "hash": "8aa69cc6",
+        "encoded": "logger.error(f%22Error%20in%20find_and_personalize_outreach:%20%7Be%7D%22)",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "415": {
+        "chunkId": "070db9",
+        "hash": "dbb7485b",
+        "encoded": "raise",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "417": {
+        "chunkId": "070db9",
+        "hash": "2dd7aee0",
+        "encoded": "async%20def%20batch_process_contacts(",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "418": {
+        "chunkId": "070db9",
+        "hash": "720ac2d8",
+        "encoded": "self,",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "419": {
+        "chunkId": "070db9",
+        "hash": "bcf60e3d",
+        "encoded": "contacts:%20List%5BPersonProfile%5D,",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "420": {
+        "chunkId": "070db9",
+        "hash": "f06b26f3",
+        "encoded": "research_request:%20ResearchRequest",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "421": {
+        "chunkId": "070db9",
+        "hash": "e573ee57",
+        "encoded": ")%20-%3E%20List%5BDict%5Bstr,%20Any%5D%5D:",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "422": {
+        "chunkId": "070db9",
+        "hash": "5e306847",
+        "encoded": "%22%22%22Process%20multiple%20contacts%20with%20rate%20limiting%22%22%22",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "423": {
+        "chunkId": "070db9",
+        "hash": "1c4287cf",
+        "encoded": "results%20=%20%5B%5D",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "424": {
+        "chunkId": "070db9",
+        "hash": "3b3f7248",
+        "encoded": "for%20i,%20person%20in%20enumerate(contacts):",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "425": {
+        "chunkId": "070db9",
+        "hash": "b77185be",
+        "encoded": "try:",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "426": {
+        "chunkId": "070db9",
+        "hash": "b825e606",
+        "encoded": "logger.info(f%22Processing%20contact%20%7Bi+1%7D/%7Blen(contacts)%7D:%20%7Bperson.name%7D%22)",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "428": {
+        "chunkId": "070db9",
+        "hash": "77f239a1",
+        "encoded": "result%20=%20await%20self.find_and_personalize_outreach(person,%20research_request)",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "429": {
+        "chunkId": "070db9",
+        "hash": "866e8303",
+        "encoded": "results.append(result)",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "431": {
+        "chunkId": "070db9",
+        "hash": "184119d9",
+        "encoded": "#%20Rate%20limiting:%20wait%20between%20requests",
+        "prevChunkIds": []
+      },
+      "432": {
+        "chunkId": "070db9",
+        "hash": "a25e5fd0",
+        "encoded": "if%20i%20%3C%20len(contacts)%20-%201:",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "435": {
+        "chunkId": "070db9",
+        "hash": "4c05c53b",
+        "encoded": "except%20Exception%20as%20e:",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "436": {
+        "chunkId": "070db9",
+        "hash": "fcc2db45",
+        "encoded": "logger.error(f%22Failed%20to%20process%20%7Bperson.name%7D:%20%7Be%7D%22)",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "437": {
+        "chunkId": "070db9",
+        "hash": "fe1d8070",
+        "encoded": "#%20Continue%20with%20next%20contact",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "438": {
+        "chunkId": "070db9",
+        "hash": "c0d1d641",
+        "encoded": "results.append(%7B",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "439": {
+        "chunkId": "070db9",
+        "hash": "481eaeac",
+        "encoded": "%22person_profile%22:%20%7B",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "440": {
+        "chunkId": "070db9",
+        "hash": "f9d256a5",
+        "encoded": "%22name%22:%20person.name,",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "441": {
+        "chunkId": "070db9",
+        "hash": "ef2ffbb5",
+        "encoded": "%22email%22:%20person.email,",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "442": {
+        "chunkId": "070db9",
+        "hash": "0d417f64",
+        "encoded": "%22university%22:%20person.university,",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "443": {
+        "chunkId": "070db9",
+        "hash": "a2c5c6f9",
+        "encoded": "%22department%22:%20person.department",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "444": {
+        "chunkId": "070db9",
+        "hash": "b00a5d00",
+        "encoded": "%7D,",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "445": {
+        "chunkId": "070db9",
+        "hash": "71b416e2",
+        "encoded": "%22error%22:%20str(e),",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "446": {
+        "chunkId": "070db9",
+        "hash": "b28c43e0",
+        "encoded": "%22generated_at%22:%20datetime.now().isoformat()",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "447": {
+        "chunkId": "070db9",
+        "hash": "ca60818b",
+        "encoded": "%7D)",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "449": {
+        "chunkId": "070db9",
+        "hash": "4f3d5166",
+        "encoded": "return%20results",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "451": {
+        "chunkId": "070db9",
+        "hash": "d7548d6f",
+        "encoded": "async%20def%20main():",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "452": {
+        "chunkId": "070db9",
+        "hash": "d4b8b569",
+        "encoded": "%22%22%22Main%20entry%20point%20with%20example%20usage%22%22%22",
+        "prevChunkIds": []
+      },
+      "453": {
+        "chunkId": "070db9",
+        "hash": "f7e665a8",
+        "encoded": "try:",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "454": {
+        "chunkId": "070db9",
+        "hash": "21c9f147",
+        "encoded": "#%20Load%20API%20key%20from%20environment",
+        "prevChunkIds": []
+      },
+      "455": {
+        "chunkId": "070db9",
+        "hash": "80858d57",
+        "encoded": "api_key%20=%20os.getenv(%22OPENAI_API_KEY%22)",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "456": {
+        "chunkId": "070db9",
+        "hash": "a60e28fc",
+        "encoded": "if%20not%20api_key:",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "457": {
+        "chunkId": "070db9",
+        "hash": "b65e2144",
+        "encoded": "raise%20ValueError(%22OPENAI_API_KEY%20environment%20variable%20is%20required%22)",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "459": {
+        "chunkId": "070db9",
+        "hash": "bcd93105",
+        "encoded": "#%20Initialize%20the%20agent",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "460": {
+        "chunkId": "070db9",
+        "hash": "7fdac4e0",
+        "encoded": "agent%20=%20ResearchMentorAgent(api_key,%20%22resume.txt%22)",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "461": {
+        "chunkId": "070db9",
+        "hash": "085e8ac4",
+        "encoded": "await%20agent.initialize()",
+        "prevChunkIds": []
+      },
+      "463": {
+        "chunkId": "070db9",
+        "hash": "c62131aa",
+        "encoded": "#%20CHANGE:%20Example%20of%20loading%20contacts%20from%20JSON%20file",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "464": {
+        "chunkId": "070db9",
+        "hash": "a12bddfd",
+        "encoded": "try:",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "465": {
+        "chunkId": "070db9",
+        "hash": "3fe5d2d6",
+        "encoded": "#%20Try%20to%20load%20contacts%20from%20JSON%20file%20first",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "466": {
+        "chunkId": "070db9",
+        "hash": "02126f0a",
+        "encoded": "contacts%20=%20agent.load_contacts_from_json(%22contacts_example.json%22)",
+        "prevChunkIds": []
+      },
+      "467": {
+        "chunkId": "070db9",
+        "hash": "4460de8f",
+        "encoded": "print(f%22Loaded%20%7Blen(contacts)%7D%20contacts%20from%20JSON%20file%22)",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "469": {
+        "chunkId": "070db9",
+        "hash": "87b1b958",
+        "encoded": "#%20Example%20research%20request",
+        "prevChunkIds": []
+      },
+      "470": {
+        "chunkId": "070db9",
+        "hash": "11c69129",
+        "encoded": "research_request%20=%20ResearchRequest(",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "471": {
+        "chunkId": "070db9",
+        "hash": "c621a9ff",
+        "encoded": "student_level=%22junior%22,",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "472": {
+        "chunkId": "070db9",
+        "hash": "780db8aa",
+        "encoded": "research_topic=%22Cell%20Biology%20and%20Cellular%20Energetics%20or%20Neuroscience%20or%20Bioinformatics%20and%20AI/Quantum%20Computing%20Applications%20in%20Biology%20or%20Molecular%20Biology%20and%20Protein%20Folding%22,",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "473": {
+        "chunkId": "070db9",
+        "hash": "cb832fe3",
+        "encoded": "duration=%226-12%20months%22,",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "474": {
+        "chunkId": "070db9",
+        "hash": "19920430",
+        "encoded": "skills_needed=%5B%22lab%20work%22,%20%22Data%20Analysis%22,%22Biology%22,%20%22Research%20Writing%22%5D,",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "475": {
+        "chunkId": "070db9",
+        "hash": "9ed732f0",
+        "encoded": "timeline=%22Starting%20June%202026%22",
+        "prevChunkIds": []
+      },
+      "476": {
+        "chunkId": "070db9",
+        "hash": "c738fb09",
+        "encoded": ")",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "478": {
+        "chunkId": "070db9",
+        "hash": "17284cf3",
+        "encoded": "#%20Process%20all%20contacts%20from%20JSON",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "479": {
+        "chunkId": "070db9",
+        "hash": "5f6142de",
+        "encoded": "results%20=%20await%20agent.batch_process_contacts(contacts,%20research_request)",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "481": {
+        "chunkId": "070db9",
+        "hash": "fd318677",
+        "encoded": "#%20Save%20batch%20results",
+        "prevChunkIds": []
+      },
+      "484": {
+        "chunkId": "070db9",
+        "hash": "1c999672",
+        "encoded": "except%20FileNotFoundError:",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "485": {
+        "chunkId": "070db9",
+        "hash": "bcb6270b",
+        "encoded": "#%20Fallback%20to%20single%20contact%20example%20if%20JSON%20file%20not%20found",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "486": {
+        "chunkId": "070db9",
+        "hash": "af7fdc34",
+        "encoded": "print(%22JSON%20file%20not%20found,%20using%20single%20contact%20example%22)",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "488": {
+        "chunkId": "070db9",
+        "hash": "a8677312",
+        "encoded": "person%20=%20PersonProfile(",
+        "prevChunkIds": []
+      },
+      "489": {
+        "chunkId": "070db9",
+        "hash": "8fe628cd",
+        "encoded": "name=%22Dr.%20Jane%20Smith%22,",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "490": {
+        "chunkId": "070db9",
+        "hash": "cacb3c05",
+        "encoded": "email=%22jane.smith@university.edu%22,",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "491": {
+        "chunkId": "070db9",
+        "hash": "95ee29b7",
+        "encoded": "university=%22Stanford%20University%22,",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "492": {
+        "chunkId": "070db9",
+        "hash": "f2d8dcb5",
+        "encoded": "department=%22Computer%20Science%22",
+        "prevChunkIds": []
+      },
+      "493": {
+        "chunkId": "070db9",
+        "hash": "6ce48832",
+        "encoded": ")",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "495": {
+        "chunkId": "070db9",
+        "hash": "9934772c",
+        "encoded": "research_request%20=%20ResearchRequest(",
+        "prevChunkIds": []
+      },
+      "496": {
+        "chunkId": "070db9",
+        "hash": "09f7fa7a",
+        "encoded": "student_level=%22junior%22,",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "497": {
+        "chunkId": "070db9",
+        "hash": "6510ffbe",
+        "encoded": "research_topic=%22Cell%20Biology%20and%20Cellular%20Energetics%20or%20Neuroscience%20or%20Bioinformatics%20and%20AI/Quantum%20Computing%20Applications%20in%20Biology%20or%20Molecular%20Biology%20and%20Protein%20Folding%22,",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "498": {
+        "chunkId": "070db9",
+        "hash": "6f2478ec",
+        "encoded": "duration=%226-12%20months%22,",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "499": {
+        "chunkId": "070db9",
+        "hash": "7022c547",
+        "encoded": "skills_needed=%5B%22lab%20work%22,%20%22Data%20Analysis%22,%22Biology%22,%20%22Research%20Writing%22%5D,",
+        "prevChunkIds": []
+      },
+      "500": {
+        "chunkId": "070db9",
+        "hash": "d47cc556",
+        "encoded": "timeline=%22Starting%20June%202026%22",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "501": {
+        "chunkId": "070db9",
+        "hash": "2b4105ce",
+        "encoded": ")",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "503": {
+        "chunkId": "070db9",
+        "hash": "708a8f58",
+        "encoded": "#%20Process%20single%20contact",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "504": {
+        "chunkId": "070db9",
+        "hash": "9e62ac54",
+        "encoded": "result%20=%20await%20agent.find_and_personalize_outreach(person,%20research_request)",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "505": {
+        "chunkId": "070db9",
+        "hash": "8cc1c8e2",
+        "encoded": "results%20=%20%5Bresult%5D",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "507": {
+        "chunkId": "070db9",
+        "hash": "8dbfb18e",
+        "encoded": "#%20Save%20single%20result",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "508": {
+        "chunkId": "070db9",
+        "hash": "e7e03944",
+        "encoded": "output_file%20=%20f%22outreach_result_%7Bperson.name.replace('%20',%20'_')%7D_%7Bdatetime.now().strftime('%25Y%25m%25d_%25H%25M%25S')%7D.json%22",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "510": {
+        "chunkId": "070db9",
+        "hash": "c61fcf72",
+        "encoded": "#%20Save%20results%20to%20file",
+        "prevChunkIds": []
+      },
+      "514": {
+        "chunkId": "070db9",
+        "hash": "1cf314f0",
+        "encoded": "print(f%22%5Cn%7B'='*60%7D%22)",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "515": {
+        "chunkId": "070db9",
+        "hash": "65dafd1f",
+        "encoded": "print(f%22RESEARCH%20MENTOR%20OUTREACH%20GENERATED%22)",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "516": {
+        "chunkId": "070db9",
+        "hash": "2b8a9e48",
+        "encoded": "print(f%22%7B'='*60%7D%22)",
+        "prevChunkIds": []
+      },
+      "517": {
+        "chunkId": "070db9",
+        "hash": "d2eae307",
+        "encoded": "print(f%22Contacts%20processed:%20%7Blen(results)%7D%22)",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "552": {
+        "chunkId": "070db9",
+        "hash": "f8229c1d",
+        "encoded": "except%20Exception%20as%20e:",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "553": {
+        "chunkId": "070db9",
+        "hash": "b769d846",
+        "encoded": "logger.error(f%22Application%20error:%20%7Be%7D%22)",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "554": {
+        "chunkId": "070db9",
+        "hash": "52d2195e",
+        "encoded": "raise",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "556": {
+        "chunkId": "070db9",
+        "hash": "75d700af",
+        "encoded": "if%20__name__%20==%20%22__main__%22:",
+        "prevChunkIds": [
+          "1851ea"
+        ]
+      },
+      "557": {
+        "chunkId": "7c79a8",
+        "hash": "a439850d",
+        "encoded": "asyncio.run(main())",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

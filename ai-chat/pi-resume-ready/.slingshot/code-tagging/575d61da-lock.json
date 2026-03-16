@@ -1,0 +1,39 @@
+{
+  "contacts_example.json": {
+    "filename": "contacts_example.json",
+    "path": "contacts_example.json",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "3f0ee8": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1773619955,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.2.0",
+        "source": "chat",
+        "type": "saveCreateNewFile",
+        "extraContext": {},
+        "hash": "3f105b80",
+        "messageId": "system_6916b8b0-20cc-11f1-bb37-8343d6a8e82b",
+        "codeBlockId": "system_6916b8b0-20cc-11f1-bb37-8343d6a8e82b-Codeblock-4",
+        "isActive": true
+      }
+    },
+    "lines": {
+      "1": {
+        "chunkId": "3f0ee8",
+        "hash": "ea20506e",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "601": {
+        "chunkId": "3f0ee8",
+        "hash": "01093f81",
+        "encoded": "%5D",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

@@ -1,0 +1,300 @@
+{
+  "test_setup.sh": {
+    "filename": "test_setup.sh",
+    "path": "test_setup.sh",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "e10aa8": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1773620760,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.2.0",
+        "source": "chat",
+        "type": "compareCode",
+        "extraContext": {},
+        "hash": "67eaa553",
+        "messageId": "system_6916b8b0-20cc-11f1-bb37-8343d6a8e82b",
+        "codeBlockId": "system_6916b8b0-20cc-11f1-bb37-8343d6a8e82b-Codeblock-10",
+        "isActive": true
+      },
+      "d2ce82": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1773620769,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.2.0",
+        "source": "chat",
+        "type": "pasteCode",
+        "extraContext": {},
+        "hash": "67eaa553",
+        "messageId": "system_6916b8b0-20cc-11f1-bb37-8343d6a8e82b",
+        "codeBlockId": "system_6916b8b0-20cc-11f1-bb37-8343d6a8e82b-Codeblock-10",
+        "isActive": true
+      }
+    },
+    "lines": {
+      "9": {
+        "chunkId": "e10aa8",
+        "hash": "0728d8e6",
+        "encoded": "echo%20%22%22",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "e10aa8",
+        "hash": "ddc9f90b",
+        "encoded": "echo%20%22%22",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "d2ce82",
+        "hash": "4fae0c3c",
+        "encoded": "#!/bin/bash",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "d2ce82",
+        "hash": "f2d16fab",
+        "encoded": "#%20Test%20the%20setup%20and%20basic%20functionality",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "d2ce82",
+        "hash": "a5e9cb2a",
+        "encoded": "echo%20%22Testing%20Research%20Mentor%20Agent%20setup...%22",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "d2ce82",
+        "hash": "8611fff8",
+        "encoded": "#%20Check%20Python%20version",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "d2ce82",
+        "hash": "5b2020c5",
+        "encoded": "python3%20--version",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "d2ce82",
+        "hash": "26a21b43",
+        "encoded": "#%20Check%20if%20virtual%20environment%20is%20activated",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "d2ce82",
+        "hash": "84fc5df8",
+        "encoded": "if%20%5B%5B%20%22$VIRTUAL_ENV%22%20!=%20%22%22%20%5D%5D;%20then",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "d2ce82",
+        "hash": "e5d1b42b",
+        "encoded": "echo%20%22%E2%9C%93%20Virtual%20environment%20is%20active%22",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "d2ce82",
+        "hash": "a29cf4cf",
+        "encoded": "else",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "d2ce82",
+        "hash": "1742afe9",
+        "encoded": "echo%20%22%E2%9A%A0%20Virtual%20environment%20not%20active.%20Run:%20source%20venv/bin/activate%22",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "d2ce82",
+        "hash": "65a027cd",
+        "encoded": "fi",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "d2ce82",
+        "hash": "48483874",
+        "encoded": "#%20Check%20if%20required%20files%20exist",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "d2ce82",
+        "hash": "31a2a04a",
+        "encoded": "if%20%5B%20-f%20%22resume.txt%22%20%5D;%20then",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "d2ce82",
+        "hash": "bfdfd07b",
+        "encoded": "echo%20%22%E2%9C%93%20Resume%20file%20found%22",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "d2ce82",
+        "hash": "d6725f2d",
+        "encoded": "else",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "d2ce82",
+        "hash": "970dc900",
+        "encoded": "echo%20%22%E2%9A%A0%20Resume%20file%20missing.%20Please%20create%20resume.txt%22",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "d2ce82",
+        "hash": "d2f2e682",
+        "encoded": "fi",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "d2ce82",
+        "hash": "1e7a139f",
+        "encoded": "if%20%5B%20-f%20%22.env%22%20%5D;%20then",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "d2ce82",
+        "hash": "995e60d6",
+        "encoded": "echo%20%22%E2%9C%93%20Environment%20file%20found%22",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "d2ce82",
+        "hash": "b7ffb8aa",
+        "encoded": "else",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "d2ce82",
+        "hash": "8d259e8c",
+        "encoded": "echo%20%22%E2%9A%A0%20Environment%20file%20missing.%20Run%20setup.sh%20first%22",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "d2ce82",
+        "hash": "87f790c3",
+        "encoded": "fi",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "d2ce82",
+        "hash": "24dfb5ad",
+        "encoded": "#%20Test%20imports",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "d2ce82",
+        "hash": "6093d023",
+        "encoded": "python3%20-c%20%22",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "d2ce82",
+        "hash": "8711aa1c",
+        "encoded": "try:",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "d2ce82",
+        "hash": "f7fc3ff1",
+        "encoded": "import%20openai,%20aiohttp,%20asyncio",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "d2ce82",
+        "hash": "f30a16f9",
+        "encoded": "print('%E2%9C%93%20All%20dependencies%20imported%20successfully')",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "d2ce82",
+        "hash": "118ef690",
+        "encoded": "except%20ImportError%20as%20e:",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "d2ce82",
+        "hash": "e2f2023b",
+        "encoded": "print(f'%E2%9C%97%20Import%20error:%20%7Be%7D')",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "d2ce82",
+        "hash": "c40c2724",
+        "encoded": "%22",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "d2ce82",
+        "hash": "9ac3a5d6",
+        "encoded": "#%20Test%20CLI%20help",
+        "prevChunkIds": []
+      },
+      "53": {
+        "chunkId": "d2ce82",
+        "hash": "a21f3c22",
+        "encoded": "echo%20%22%22",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "d2ce82",
+        "hash": "886f517d",
+        "encoded": "echo%20%22Testing%20CLI%20interface...%22",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "d2ce82",
+        "hash": "7b2b7b87",
+        "encoded": "python3%20cli.py%20--help%20%3E%20/dev/null%202%3E&1",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "d2ce82",
+        "hash": "a822c9d5",
+        "encoded": "if%20%5B%20$?%20-eq%200%20%5D;%20then",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "d2ce82",
+        "hash": "7c38060a",
+        "encoded": "echo%20%22%E2%9C%93%20CLI%20interface%20working%22",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "d2ce82",
+        "hash": "72f485b2",
+        "encoded": "else",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "d2ce82",
+        "hash": "2f7eb01e",
+        "encoded": "echo%20%22%E2%9C%97%20CLI%20interface%20error%22",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "d2ce82",
+        "hash": "6b32aa3f",
+        "encoded": "fi",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "d2ce82",
+        "hash": "349597e2",
+        "encoded": "echo%20%22%22",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "d2ce82",
+        "hash": "9c043f81",
+        "encoded": "echo%20%22Setup%20verification%20complete!%22",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

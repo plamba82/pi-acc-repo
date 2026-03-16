@@ -1,0 +1,411 @@
+{
+  "config.py": {
+    "filename": "config.py",
+    "path": "config.py",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "941ad1": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1773621678,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.2.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {},
+        "hash": "14d465bc",
+        "messageId": "system_5e44f560-20d0-11f1-bb37-8343d6a8e82b",
+        "codeBlockId": "system_5e44f560-20d0-11f1-bb37-8343d6a8e82b-Codeblock-2",
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "941ad1",
+        "hash": "9cef9ccb",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "941ad1",
+        "hash": "67131bab",
+        "encoded": "Configuration%20settings%20for%20the%20Research%20Mentor%20Agent",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "941ad1",
+        "hash": "d5f64358",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "941ad1",
+        "hash": "ac3fd399",
+        "encoded": "import%20os",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "941ad1",
+        "hash": "501903f4",
+        "encoded": "from%20typing%20import%20Dict,%20Any",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "941ad1",
+        "hash": "9f05bee0",
+        "encoded": "from%20pathlib%20import%20Path",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "941ad1",
+        "hash": "c6eb99b3",
+        "encoded": "#%20Load%20environment%20variables%20from%20.env%20file%20if%20it%20exists",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "941ad1",
+        "hash": "e4d69cbc",
+        "encoded": "try:",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "941ad1",
+        "hash": "f82dbf2b",
+        "encoded": "from%20dotenv%20import%20load_dotenv",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "941ad1",
+        "hash": "29100e08",
+        "encoded": "env_path%20=%20Path('.')%20/%20'.env'",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "941ad1",
+        "hash": "ff396172",
+        "encoded": "if%20env_path.exists():",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "941ad1",
+        "hash": "9474989e",
+        "encoded": "load_dotenv(env_path)",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "941ad1",
+        "hash": "5e6c53d0",
+        "encoded": "except%20ImportError:",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "941ad1",
+        "hash": "64d9cb28",
+        "encoded": "#%20python-dotenv%20not%20installed,%20skip%20loading%20.env%20file",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "941ad1",
+        "hash": "c87d55d3",
+        "encoded": "pass",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "941ad1",
+        "hash": "8083dab2",
+        "encoded": "class%20Config:",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "941ad1",
+        "hash": "225790f9",
+        "encoded": "%22%22%22Application%20configuration%22%22%22",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "941ad1",
+        "hash": "ff1f6d76",
+        "encoded": "#%20API%20Configuration%20-%20CHANGE:%20Updated%20to%20use%20latest%20OpenAI%20models",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "941ad1",
+        "hash": "cb7b26c5",
+        "encoded": "OPENAI_API_KEY%20=%20os.getenv(%22OPENAI_API_KEY%22)",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "941ad1",
+        "hash": "89c69199",
+        "encoded": "#%20File%20Paths",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "941ad1",
+        "hash": "53e64a7b",
+        "encoded": "DEFAULT_RESUME_PATH%20=%20%22resume.txt%22",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "941ad1",
+        "hash": "3ffaace9",
+        "encoded": "OUTPUT_DIRECTORY%20=%20%22output%22",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "941ad1",
+        "hash": "d8c26f62",
+        "encoded": "#%20Rate%20Limiting",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "941ad1",
+        "hash": "de1146a2",
+        "encoded": "REQUEST_DELAY_SECONDS%20=%202",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "941ad1",
+        "hash": "851de9fc",
+        "encoded": "MAX_RETRIES%20=%203",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "941ad1",
+        "hash": "ec9156ef",
+        "encoded": "TIMEOUT_SECONDS%20=%2030",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "941ad1",
+        "hash": "b1208055",
+        "encoded": "#%20Message%20Configuration",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "941ad1",
+        "hash": "9cd918e6",
+        "encoded": "MAX_MESSAGE_LENGTH%20=%20300",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "941ad1",
+        "hash": "03a9a63b",
+        "encoded": "TEMPERATURE_SEARCH%20=%200.3",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "941ad1",
+        "hash": "3b622c1b",
+        "encoded": "TEMPERATURE_PARSE%20=%200.1",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "941ad1",
+        "hash": "dc8a07f7",
+        "encoded": "TEMPERATURE_MESSAGE%20=%200.4",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "941ad1",
+        "hash": "16e6ada5",
+        "encoded": "#%20Logging",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "941ad1",
+        "hash": "1c5701cb",
+        "encoded": "LOG_LEVEL%20=%20%22INFO%22",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "941ad1",
+        "hash": "99ba5f05",
+        "encoded": "LOG_FORMAT%20=%20%22%25(asctime)s%20-%20%25(name)s%20-%20%25(levelname)s%20-%20%25(message)s%22",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "941ad1",
+        "hash": "d842bb4e",
+        "encoded": "@classmethod",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "941ad1",
+        "hash": "0e83a84c",
+        "encoded": "def%20validate(cls)%20-%3E%20bool:",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "941ad1",
+        "hash": "19732e2a",
+        "encoded": "%22%22%22Validate%20required%20configuration%22%22%22",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "941ad1",
+        "hash": "762c5e26",
+        "encoded": "if%20not%20cls.OPENAI_API_KEY:",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "941ad1",
+        "hash": "6ad246bd",
+        "encoded": "raise%20ValueError(",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "941ad1",
+        "hash": "f456f66b",
+        "encoded": "%22OPENAI_API_KEY%20environment%20variable%20is%20required.%20%22",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "941ad1",
+        "hash": "4abd7ca7",
+        "encoded": "%22Set%20it%20using:%20export%20OPENAI_API_KEY='your-key-here'%20%22",
+        "prevChunkIds": []
+      },
+      "53": {
+        "chunkId": "941ad1",
+        "hash": "e97f94ce",
+        "encoded": "%22or%20create%20a%20.env%20file%20with%20OPENAI_API_KEY=your-key-here%22",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "941ad1",
+        "hash": "3ffb9ef3",
+        "encoded": ")",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "941ad1",
+        "hash": "360d494e",
+        "encoded": "return%20True",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "941ad1",
+        "hash": "945aa714",
+        "encoded": "@classmethod",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "941ad1",
+        "hash": "43f2a267",
+        "encoded": "def%20get_model_config(cls)%20-%3E%20Dict%5Bstr,%20Any%5D:",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "941ad1",
+        "hash": "fdbd63ee",
+        "encoded": "%22%22%22Get%20model%20configuration%20for%20different%20tasks%22%22%22",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "941ad1",
+        "hash": "f630b1c5",
+        "encoded": "return%20%7B",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "941ad1",
+        "hash": "754de23c",
+        "encoded": "%22search%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "941ad1",
+        "hash": "190c6559",
+        "encoded": "%22model%22:%20cls.OPENAI_MODEL_SEARCH,",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "941ad1",
+        "hash": "ddf37a3b",
+        "encoded": "%22temperature%22:%20cls.TEMPERATURE_SEARCH,",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "941ad1",
+        "hash": "03461320",
+        "encoded": "%22max_tokens%22:%201500",
+        "prevChunkIds": []
+      },
+      "65": {
+        "chunkId": "941ad1",
+        "hash": "bc8c9bae",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "66": {
+        "chunkId": "941ad1",
+        "hash": "3ccec7ad",
+        "encoded": "%22parse%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "941ad1",
+        "hash": "2da36fc8",
+        "encoded": "%22model%22:%20cls.OPENAI_MODEL_PARSE,",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "941ad1",
+        "hash": "74f668a3",
+        "encoded": "%22temperature%22:%20cls.TEMPERATURE_PARSE,",
+        "prevChunkIds": []
+      },
+      "69": {
+        "chunkId": "941ad1",
+        "hash": "aa5c703b",
+        "encoded": "%22max_tokens%22:%20800",
+        "prevChunkIds": []
+      },
+      "70": {
+        "chunkId": "941ad1",
+        "hash": "d5aefc15",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "71": {
+        "chunkId": "941ad1",
+        "hash": "93c0de32",
+        "encoded": "%22message%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "72": {
+        "chunkId": "941ad1",
+        "hash": "0e59ba9e",
+        "encoded": "%22model%22:%20cls.OPENAI_MODEL_MESSAGE,",
+        "prevChunkIds": []
+      },
+      "73": {
+        "chunkId": "941ad1",
+        "hash": "e169d581",
+        "encoded": "%22temperature%22:%20cls.TEMPERATURE_MESSAGE,",
+        "prevChunkIds": []
+      },
+      "74": {
+        "chunkId": "941ad1",
+        "hash": "bcdf753b",
+        "encoded": "%22max_tokens%22:%201000",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "941ad1",
+        "hash": "5250e31e",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "76": {
+        "chunkId": "941ad1",
+        "hash": "88f18366",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

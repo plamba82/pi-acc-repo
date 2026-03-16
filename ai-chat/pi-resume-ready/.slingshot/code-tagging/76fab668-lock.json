@@ -1,0 +1,114 @@
+{
+  ".env": {
+    "filename": ".env",
+    "path": ".env",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "7d68fd": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1773620692,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.2.0",
+        "source": "chat",
+        "type": "pasteCode",
+        "extraContext": {},
+        "hash": "883e41ff",
+        "messageId": "system_6916b8b0-20cc-11f1-bb37-8343d6a8e82b",
+        "codeBlockId": "system_6916b8b0-20cc-11f1-bb37-8343d6a8e82b-Codeblock-7",
+        "isActive": true
+      },
+      "404aaf": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1773620738,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.2.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {},
+        "hash": "67eaa553",
+        "messageId": "system_6916b8b0-20cc-11f1-bb37-8343d6a8e82b",
+        "codeBlockId": "system_6916b8b0-20cc-11f1-bb37-8343d6a8e82b-Codeblock-10",
+        "isActive": false
+      }
+    },
+    "lines": {
+      "1": {
+        "chunkId": "7d68fd",
+        "hash": "8f5e7bb2",
+        "encoded": "#%20OpenAI%20API%20Configuration",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "7d68fd",
+        "hash": "76461f72",
+        "encoded": "#%20Optional:%20Customize%20file%20paths",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "7d68fd",
+        "hash": "06f9fbcd",
+        "encoded": "RESUME_PATH=resume.txt",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "7d68fd",
+        "hash": "f6aaa6fa",
+        "encoded": "OUTPUT_DIR=output",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "7d68fd",
+        "hash": "5448a886",
+        "encoded": "EOF",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "7d68fd",
+        "hash": "0da6bbee",
+        "encoded": "echo%20%22Setup%20complete!%22",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "7d68fd",
+        "hash": "0fed09db",
+        "encoded": "echo%20%22%22",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "7d68fd",
+        "hash": "8c59d7db",
+        "encoded": "echo%20%22Next%20steps:%22",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "7d68fd",
+        "hash": "392ba75a",
+        "encoded": "echo%20%221.%20Add%20your%20OpenAI%20API%20key%20to%20.env%20file%22",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "7d68fd",
+        "hash": "c85926a2",
+        "encoded": "echo%20%222.%20Update%20resume.txt%20with%20your%20information%22",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "7d68fd",
+        "hash": "2adfd13d",
+        "encoded": "echo%20%223.%20Run:%20python%20main.py%22",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "7d68fd",
+        "hash": "645fc9f7",
+        "encoded": "echo%20%22%22",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

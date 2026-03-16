@@ -1,0 +1,219 @@
+{
+  "setup.sh": {
+    "filename": "setup.sh",
+    "path": "setup.sh",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "faf40b": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1773620576,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.2.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {},
+        "hash": "11a77236",
+        "messageId": "system_6916b8b0-20cc-11f1-bb37-8343d6a8e82b",
+        "codeBlockId": "system_6916b8b0-20cc-11f1-bb37-8343d6a8e82b-Codeblock-7",
+        "isActive": false
+      },
+      "094961": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1773620596,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.2.0",
+        "source": "chat",
+        "type": "compareCode",
+        "extraContext": {},
+        "hash": "11a77236",
+        "messageId": "system_6916b8b0-20cc-11f1-bb37-8343d6a8e82b",
+        "codeBlockId": "system_6916b8b0-20cc-11f1-bb37-8343d6a8e82b-Codeblock-7",
+        "isActive": false
+      },
+      "b8231a": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1773620600,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.2.0",
+        "source": "chat",
+        "type": "pasteCode",
+        "extraContext": {},
+        "hash": "11a77236",
+        "messageId": "system_6916b8b0-20cc-11f1-bb37-8343d6a8e82b",
+        "codeBlockId": "system_6916b8b0-20cc-11f1-bb37-8343d6a8e82b-Codeblock-7",
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "b8231a",
+        "hash": "acb0f876",
+        "encoded": "#!/bin/bash",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "b8231a",
+        "hash": "a08e1f09",
+        "encoded": "#%20Setup%20script%20for%20Research%20Mentor%20Agent",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "b8231a",
+        "hash": "1129e701",
+        "encoded": "echo%20%22Setting%20up%20Research%20Mentor%20Agent...%22",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "b8231a",
+        "hash": "349e67f3",
+        "encoded": "#%20Create%20virtual%20environment",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "b8231a",
+        "hash": "1e38d069",
+        "encoded": "python3%20-m%20venv%20venv",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "b8231a",
+        "hash": "e2beb82e",
+        "encoded": "source%20venv/bin/activate",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "b8231a",
+        "hash": "53acfda9",
+        "encoded": "#%20Install%20dependencies",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "b8231a",
+        "hash": "53429f4c",
+        "encoded": "pip%20install%20-r%20requirements.txt",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "b8231a",
+        "hash": "0b96af2f",
+        "encoded": "#%20Create%20necessary%20directories",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "b8231a",
+        "hash": "f48c2a19",
+        "encoded": "mkdir%20-p%20output",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "b8231a",
+        "hash": "be7f247e",
+        "encoded": "mkdir%20-p%20logs",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "b8231a",
+        "hash": "0b38492a",
+        "encoded": "#%20Create%20.env%20file%20template",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "b8231a",
+        "hash": "a0138a97",
+        "encoded": "cat%20%3E%20.env%20%3C%3C%20EOF",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "b8231a",
+        "hash": "9c45cdd8",
+        "encoded": "#%20OpenAI%20API%20Configuration",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "b8231a",
+        "hash": "665c66b2",
+        "encoded": "OPENAI_API_KEY=your_openai_api_key_here",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "b8231a",
+        "hash": "d09d3b7f",
+        "encoded": "#%20Optional:%20Customize%20file%20paths",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "b8231a",
+        "hash": "98e4f6dc",
+        "encoded": "RESUME_PATH=resume.txt",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "b8231a",
+        "hash": "238a80b8",
+        "encoded": "OUTPUT_DIR=output",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "b8231a",
+        "hash": "03be8e82",
+        "encoded": "EOF",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "b8231a",
+        "hash": "420a592f",
+        "encoded": "echo%20%22Setup%20complete!%22",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "b8231a",
+        "hash": "9353817b",
+        "encoded": "echo%20%22%22",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "b8231a",
+        "hash": "9c551435",
+        "encoded": "echo%20%22Next%20steps:%22",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "b8231a",
+        "hash": "6b482ef6",
+        "encoded": "echo%20%221.%20Add%20your%20OpenAI%20API%20key%20to%20.env%20file%22",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "b8231a",
+        "hash": "b4e35cbd",
+        "encoded": "echo%20%222.%20Update%20resume.txt%20with%20your%20information%22",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "b8231a",
+        "hash": "fcf55c29",
+        "encoded": "echo%20%223.%20Run:%20python%20main.py%22",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "b8231a",
+        "hash": "b228f98b",
+        "encoded": "echo%20%22%22",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "b8231a",
+        "hash": "436cbcbe",
+        "encoded": "echo%20%22For%20CLI%20usage:%20python%20cli.py%20--help%22",
+        "prevChunkIds": []
+      }
+    }
+  }
+}
